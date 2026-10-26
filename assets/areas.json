@@ -1,0 +1,24 @@
+{
+  "fejer": [
+    "Ráckeresztúr",
+    "Adony",
+    "Ercsi",
+    "Pusztaszabolcs",
+    "Dunaújváros",
+    "Velence",
+    "Gárdony",
+    "Agárd",
+    "Martonvásár"
+  ],
+  "pest": [
+    "Budaörs",
+    "Üllő",
+    "Monor",
+    "Érd",
+    "Százhalombatta",
+    "Tárnok"
+  ],
+  "budapest": [
+    "Budapest"
+  ]
+}
