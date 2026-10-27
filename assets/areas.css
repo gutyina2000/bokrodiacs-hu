@@ -1,0 +1,98 @@
+/* Service-area directory: server-rendered links remain usable without JavaScript. */
+.area-breadcrumb{padding:22px 7% 0;font-size:12px}
+.area-breadcrumb ol{display:flex;flex-wrap:wrap;gap:8px;list-style:none;margin:0;padding:0;color:var(--muted)}
+.area-breadcrumb li+li:before{content:"/";margin-right:8px;color:var(--wood)}
+.area-breadcrumb a:hover{text-decoration:underline}
+.area-intro{padding:48px 7% 56px;border-bottom:1px solid var(--line)}
+.area-intro h1,.area-town-hero h1{font-size:clamp(42px,5.1vw,76px);overflow-wrap:anywhere}
+.area-intro>p:not(.eyebrow){max-width:780px;margin-top:24px}
+.area-facts{display:flex;flex-wrap:wrap;align-items:center;gap:22px 40px;margin:32px 0;color:var(--muted);font-size:13px}
+.area-facts strong{font:36px var(--serif);color:var(--ink);margin-right:8px}
+.county-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin-top:40px}
+.county-card{display:block;padding:32px;background:var(--paper);border:1px solid #c9b18d;border-top:3px solid var(--wood);transition:background .2s}
+.county-card:hover{background:#eeeee3}
+.county-card .eyebrow{display:block;margin-bottom:12px}.county-card h3{font:38px/1.15 var(--serif)}
+.county-card p{margin:18px 0 22px;max-width:480px;font-size:14px}
+.area-budapest{font-size:13px!important}.area-budapest a,.area-context p a{text-decoration:underline;text-underline-offset:3px}
+.area-actions{display:flex;align-items:center;flex-wrap:wrap;gap:18px 26px;margin-top:28px}
+.area-small{font-size:12px!important;margin-top:18px!important}
+.area-context{display:grid;grid-template-columns:1fr 1.3fr;gap:8%;background:#eceee5}
+.area-context h2{font-size:clamp(31px,3.4vw,48px);overflow-wrap:anywhere}
+.area-context p+p{margin-top:16px}.area-context .text-link{margin-top:22px}
+.area-section-heading{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:30px}
+.area-section-heading>p{font-size:13px;max-width:300px}
+.area-search{max-width:740px;margin:28px 0 42px}
+.area-search label{display:block;margin-bottom:8px;font-size:13px;font-weight:600}
+.area-search>div{display:flex;gap:12px}.area-search input{min-width:0}
+.area-search button{flex-shrink:0;border:1px solid #aab7ab;background:transparent;padding:10px 15px}
+.area-search>p{font-size:12px;margin-top:10px}
+.district-group{padding:26px 0;border-top:1px solid var(--line)}
+.district-group h3{font:27px/1.3 var(--serif);margin-bottom:18px}
+.district-group h3 span{display:inline-block;font:11px var(--sans);color:var(--muted);margin-left:12px;white-space:nowrap}
+.settlement-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;list-style:none;padding:0;margin:0}
+.settlement-grid li{min-width:0}
+.settlement-grid a{display:flex;align-items:center;justify-content:space-between;gap:12px;background:var(--paper);border:1px solid var(--line);padding:12px 15px;font-size:13px;min-height:47px;overflow-wrap:anywhere}
+.settlement-grid a:hover{background:var(--ink);color:var(--paper)}
+.area-source{font-size:11px;margin-top:28px}.area-source a{text-decoration:underline}
+.area-no-results{padding:25px;background:#eceee5;border-left:3px solid var(--wood)}
+.area-service-grid,.area-prep-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:26px;margin-top:38px}
+.area-service-grid article{border-top:2px solid var(--wood);padding-top:22px}
+.area-service-grid article>span,.area-prep-grid article>span{font-size:10px;letter-spacing:.1em;color:#856139}
+.area-service-grid h3,.area-prep-grid h3{font:25px/1.2 var(--serif);margin:16px 0}
+.area-service-grid p,.area-prep-grid p{font-size:13px}
+.area-service-grid .text-link{margin-top:24px}
+.area-callout{margin:0 7% 56px;background:var(--ink);padding:48px 5%;display:grid;grid-template-columns:1fr auto;align-items:center;gap:40px;color:var(--paper)}
+.area-callout h2{font-size:clamp(30px,3vw,44px);overflow-wrap:anywhere}
+.area-callout .eyebrow{color:var(--gold)}.area-callout p:not(.eyebrow){margin-top:20px;max-width:660px;color:#d4ddcf;font-size:13px}
+.area-callout .button{white-space:nowrap;font-size:16px}
+.area-secondary-link{display:block;font-size:12px;color:var(--paper);margin-top:15px;text-decoration:underline}
+.area-town-hero{display:grid;grid-template-columns:1.15fr 1fr;align-items:center;gap:6%;padding:45px 7% 65px}
+.area-town-hero>div>p:not(.eyebrow){margin-top:24px;max-width:640px}
+.area-town-hero figure{margin:0;min-width:0}
+.area-town-hero img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}
+.area-town-hero figcaption{font-size:11px;color:var(--muted);padding:10px 0}
+.area-preparation{background:#eceee5}.area-prep-grid article{border-top:1px solid #bdc7b8;padding-top:18px}
+.area-price-note{margin-top:32px;font-size:13px}.area-price-note a{margin-top:8px}
+.area-reference{display:grid;grid-template-columns:1.3fr 1fr;gap:8%;align-items:center}
+.area-reference h2{font-size:42px}.area-reference p{margin:22px 0}
+.area-reference-more{display:block;padding:35px;border:1px solid var(--line);background:var(--paper)}
+.area-reference-more>span{font-size:12px;color:var(--muted)}
+.area-reference-more strong{font:30px/1.2 var(--serif);display:block;margin-top:15px}
+.area-reference-more p{font-size:13px;margin-bottom:0}
+.area-faq{padding-top:0}.area-faq h2{font-size:clamp(31px,3.7vw,48px);margin-bottom:26px;overflow-wrap:anywhere}
+.area-faq details{padding:20px 0;border-bottom:1px solid var(--line)}
+.area-faq summary{cursor:pointer;font-size:16px}
+.area-faq details p{padding-top:16px;max-width:850px}
+.area-faq a{text-decoration:underline}
+.area-related{padding-top:0}.area-related h2{font-size:40px}.area-related>p{margin-top:16px}
+.area-related-links{display:flex;flex-wrap:wrap;gap:8px;margin:25px 0}
+.area-related-links a{padding:9px 14px;background:#e9ece2;font-size:13px}
+.area-related-links a:hover{background:var(--ink);color:var(--paper)}
+.home-county-links{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px}
+.home-county-links a{padding:12px 18px;background:var(--ink);color:var(--paper);font-size:12px}
+#town-list{max-height:300px;overflow-y:auto;overscroll-behavior:contain;padding:4px 6px 10px 4px}
+#town-list a{align-self:start}
+#town-count{font-size:11px;margin-top:12px}
+@media(max-width:1000px){
+.settlement-grid,.area-service-grid,.area-prep-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.area-callout{grid-template-columns:1fr}.area-callout>div:last-child{display:flex;flex-wrap:wrap;align-items:center;gap:18px}.area-secondary-link{margin:0}
+}
+@media(max-width:760px){
+.area-breadcrumb{padding:20px 6% 0;font-size:11px}
+.area-intro{padding:32px 6% 40px}.area-intro h1,.area-town-hero h1{font-size:43px}
+.county-cards,.area-context,.area-town-hero,.area-reference{grid-template-columns:1fr}
+.county-card{padding:25px}.county-card h3{font-size:33px}
+.area-context{gap:25px}.area-facts{gap:16px}.area-facts strong{font-size:29px}
+.area-section-heading{display:block}.area-section-heading>p{margin-top:18px}
+.area-search>div{flex-direction:column}.area-search button{align-self:start}
+.settlement-grid{gap:8px}.settlement-grid a{font-size:12px;padding:12px 10px}
+.district-group h3{font-size:25px}.district-group h3 span{display:block;margin:8px 0 0}
+.area-service-grid,.area-prep-grid{gap:28px 18px}
+.area-service-grid h3,.area-prep-grid h3{font-size:23px}
+.area-callout{margin:0 0 45px;padding:36px 6%;gap:26px}
+.area-town-hero{padding:32px 6% 40px;gap:30px}
+.area-town-hero .button{font-size:13px}.area-town-hero figure{max-width:600px}
+.area-reference{gap:28px}.area-reference h2{font-size:35px}
+.area-related h2{font-size:34px}
+}
+@media(max-width:380px){.area-service-grid,.area-prep-grid,.settlement-grid{grid-template-columns:1fr}.area-intro h1,.area-town-hero h1{font-size:38px}}

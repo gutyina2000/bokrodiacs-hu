@@ -1,0 +1,2380 @@
+{
+  "source": "https://www.ksh.hu/docs/helysegnevtar/hnt_letoltes_2026.xlsx",
+  "sourceDate": "2026-01-01",
+  "checkedAt": "2026-10-27",
+  "counties": {
+    "fejer": {
+      "name": "Fejér",
+      "count": 108
+    },
+    "pest": {
+      "name": "Pest",
+      "count": 187
+    }
+  },
+  "towns": [
+    {
+      "name": "Aba",
+      "slug": "aba",
+      "county": "fejer",
+      "district": "Székesfehérvári",
+      "districtSeat": "Székesfehérvár",
+      "kshId": "17376"
+    },
+    {
+      "name": "Abony",
+      "slug": "abony",
+      "county": "pest",
+      "district": "Ceglédi",
+      "districtSeat": "Cegléd",
+      "kshId": "27872"
+    },
+    {
+      "name": "Acsa",
+      "slug": "acsa",
+      "county": "pest",
+      "district": "Váci",
+      "districtSeat": "Vác",
+      "kshId": "18573"
+    },
+    {
+      "name": "Adony",
+      "slug": "adony",
+      "county": "fejer",
+      "district": "Dunaújvárosi",
+      "districtSeat": "Dunaújváros",
+      "kshId": "08925"
+    },
+    {
+      "name": "Alap",
+      "slug": "alap",
+      "county": "fejer",
+      "district": "Sárbogárdi",
+      "districtSeat": "Sárbogárd",
+      "kshId": "26824"
+    },
+    {
+      "name": "Albertirsa",
+      "slug": "albertirsa",
+      "county": "pest",
+      "district": "Ceglédi",
+      "districtSeat": "Cegléd",
+      "kshId": "31653"
+    },
+    {
+      "name": "Alcsútdoboz",
+      "slug": "alcsutdoboz",
+      "county": "fejer",
+      "district": "Bicskei",
+      "districtSeat": "Bicske",
+      "kshId": "15176"
+    },
+    {
+      "name": "Alsónémedi",
+      "slug": "alsonemedi",
+      "county": "pest",
+      "district": "Gyáli",
+      "districtSeat": "Gyál",
+      "kshId": "23199"
+    },
+    {
+      "name": "Alsószentiván",
+      "slug": "alsoszentivan",
+      "county": "fejer",
+      "district": "Sárbogárdi",
+      "districtSeat": "Sárbogárd",
+      "kshId": "25283"
+    },
+    {
+      "name": "Apaj",
+      "slug": "apaj",
+      "county": "pest",
+      "district": "Ráckevei",
+      "districtSeat": "Ráckeve",
+      "kshId": "33561"
+    },
+    {
+      "name": "Áporka",
+      "slug": "aporka",
+      "county": "pest",
+      "district": "Ráckevei",
+      "districtSeat": "Ráckeve",
+      "kshId": "10108"
+    },
+    {
+      "name": "Aszód",
+      "slug": "aszod",
+      "county": "pest",
+      "district": "Aszódi",
+      "districtSeat": "Aszód",
+      "kshId": "16188"
+    },
+    {
+      "name": "Bag",
+      "slug": "bag",
+      "county": "pest",
+      "district": "Aszódi",
+      "districtSeat": "Aszód",
+      "kshId": "09131"
+    },
+    {
+      "name": "Bakonycsernye",
+      "slug": "bakonycsernye",
+      "county": "fejer",
+      "district": "Móri",
+      "districtSeat": "Mór",
+      "kshId": "08730"
+    },
+    {
+      "name": "Bakonykúti",
+      "slug": "bakonykuti",
+      "county": "fejer",
+      "district": "Székesfehérvári",
+      "districtSeat": "Székesfehérvár",
+      "kshId": "23153"
+    },
+    {
+      "name": "Balinka",
+      "slug": "balinka",
+      "county": "fejer",
+      "district": "Móri",
+      "districtSeat": "Mór",
+      "kshId": "31103"
+    },
+    {
+      "name": "Baracs",
+      "slug": "baracs",
+      "county": "fejer",
+      "district": "Dunaújvárosi",
+      "districtSeat": "Dunaújváros",
+      "kshId": "07047"
+    },
+    {
+      "name": "Baracska",
+      "slug": "baracska",
+      "county": "fejer",
+      "district": "Martonvásári",
+      "districtSeat": "Martonvásár",
+      "kshId": "08581"
+    },
+    {
+      "name": "Beloiannisz",
+      "slug": "beloiannisz",
+      "county": "fejer",
+      "district": "Dunaújvárosi",
+      "districtSeat": "Dunaújváros",
+      "kshId": "08466"
+    },
+    {
+      "name": "Bénye",
+      "slug": "benye",
+      "county": "pest",
+      "district": "Monori",
+      "districtSeat": "Monor",
+      "kshId": "25098"
+    },
+    {
+      "name": "Bernecebaráti",
+      "slug": "bernecebarati",
+      "county": "pest",
+      "district": "Szobi",
+      "districtSeat": "Szob",
+      "kshId": "18777"
+    },
+    {
+      "name": "Besnyő",
+      "slug": "besnyo",
+      "county": "fejer",
+      "district": "Dunaújvárosi",
+      "districtSeat": "Dunaújváros",
+      "kshId": "16346"
+    },
+    {
+      "name": "Biatorbágy",
+      "slug": "biatorbagy",
+      "county": "pest",
+      "district": "Budakeszi",
+      "districtSeat": "Budakeszi",
+      "kshId": "08891"
+    },
+    {
+      "name": "Bicske",
+      "slug": "bicske",
+      "county": "fejer",
+      "district": "Bicskei",
+      "districtSeat": "Bicske",
+      "kshId": "10481"
+    },
+    {
+      "name": "Bodajk",
+      "slug": "bodajk",
+      "county": "fejer",
+      "district": "Móri",
+      "districtSeat": "Mór",
+      "kshId": "18254"
+    },
+    {
+      "name": "Bodmér",
+      "slug": "bodmer",
+      "county": "fejer",
+      "district": "Bicskei",
+      "districtSeat": "Bicske",
+      "kshId": "11624"
+    },
+    {
+      "name": "Budajenő",
+      "slug": "budajeno",
+      "county": "pest",
+      "district": "Budakeszi",
+      "districtSeat": "Budakeszi",
+      "kshId": "03407"
+    },
+    {
+      "name": "Budakalász",
+      "slug": "budakalasz",
+      "county": "pest",
+      "district": "Szentendrei",
+      "districtSeat": "Szentendre",
+      "kshId": "23463"
+    },
+    {
+      "name": "Budakeszi",
+      "slug": "budakeszi",
+      "county": "pest",
+      "district": "Budakeszi",
+      "districtSeat": "Budakeszi",
+      "kshId": "12052"
+    },
+    {
+      "name": "Budaörs",
+      "slug": "budaors",
+      "county": "pest",
+      "district": "Budakeszi",
+      "districtSeat": "Budakeszi",
+      "kshId": "23278"
+    },
+    {
+      "name": "Bugyi",
+      "slug": "bugyi",
+      "county": "pest",
+      "district": "Dabasi",
+      "districtSeat": "Dabas",
+      "kshId": "32027"
+    },
+    {
+      "name": "Cece",
+      "slug": "cece",
+      "county": "fejer",
+      "district": "Sárbogárdi",
+      "districtSeat": "Sárbogárd",
+      "kshId": "13152"
+    },
+    {
+      "name": "Cegléd",
+      "slug": "cegled",
+      "county": "pest",
+      "district": "Ceglédi",
+      "districtSeat": "Cegléd",
+      "kshId": "11341"
+    },
+    {
+      "name": "Ceglédbercel",
+      "slug": "cegledbercel",
+      "county": "pest",
+      "district": "Ceglédi",
+      "districtSeat": "Cegléd",
+      "kshId": "20640"
+    },
+    {
+      "name": "Csabdi",
+      "slug": "csabdi",
+      "county": "fejer",
+      "district": "Bicskei",
+      "districtSeat": "Bicske",
+      "kshId": "30544"
+    },
+    {
+      "name": "Csákberény",
+      "slug": "csakbereny",
+      "county": "fejer",
+      "district": "Móri",
+      "districtSeat": "Mór",
+      "kshId": "05360"
+    },
+    {
+      "name": "Csákvár",
+      "slug": "csakvar",
+      "county": "fejer",
+      "district": "Bicskei",
+      "districtSeat": "Bicske",
+      "kshId": "20002"
+    },
+    {
+      "name": "Csemő",
+      "slug": "csemo",
+      "county": "pest",
+      "district": "Ceglédi",
+      "districtSeat": "Cegléd",
+      "kshId": "05184"
+    },
+    {
+      "name": "Csévharaszt",
+      "slug": "csevharaszt",
+      "county": "pest",
+      "district": "Monori",
+      "districtSeat": "Monor",
+      "kshId": "18476"
+    },
+    {
+      "name": "Csobánka",
+      "slug": "csobanka",
+      "county": "pest",
+      "district": "Szentendrei",
+      "districtSeat": "Szentendre",
+      "kshId": "06822"
+    },
+    {
+      "name": "Csókakő",
+      "slug": "csokako",
+      "county": "fejer",
+      "district": "Móri",
+      "districtSeat": "Mór",
+      "kshId": "21908"
+    },
+    {
+      "name": "Csomád",
+      "slug": "csomad",
+      "county": "pest",
+      "district": "Dunakeszi",
+      "districtSeat": "Dunakeszi",
+      "kshId": "33118"
+    },
+    {
+      "name": "Csór",
+      "slug": "csor",
+      "county": "fejer",
+      "district": "Székesfehérvári",
+      "districtSeat": "Székesfehérvár",
+      "kshId": "09779"
+    },
+    {
+      "name": "Csömör",
+      "slug": "csomor",
+      "county": "pest",
+      "district": "Gödöllői",
+      "districtSeat": "Gödöllő",
+      "kshId": "22804"
+    },
+    {
+      "name": "Csörög",
+      "slug": "csorog",
+      "county": "pest",
+      "district": "Váci",
+      "districtSeat": "Vác",
+      "kshId": "34333"
+    },
+    {
+      "name": "Csősz",
+      "slug": "csosz",
+      "county": "fejer",
+      "district": "Székesfehérvári",
+      "districtSeat": "Székesfehérvár",
+      "kshId": "06734"
+    },
+    {
+      "name": "Csővár",
+      "slug": "csovar",
+      "county": "pest",
+      "district": "Váci",
+      "districtSeat": "Vác",
+      "kshId": "26985"
+    },
+    {
+      "name": "Dabas",
+      "slug": "dabas",
+      "county": "pest",
+      "district": "Dabasi",
+      "districtSeat": "Dabas",
+      "kshId": "09247"
+    },
+    {
+      "name": "Dánszentmiklós",
+      "slug": "danszentmiklos",
+      "county": "pest",
+      "district": "Ceglédi",
+      "districtSeat": "Cegléd",
+      "kshId": "31811"
+    },
+    {
+      "name": "Dány",
+      "slug": "dany",
+      "county": "pest",
+      "district": "Gödöllői",
+      "districtSeat": "Gödöllő",
+      "kshId": "18397"
+    },
+    {
+      "name": "Daruszentmiklós",
+      "slug": "daruszentmiklos",
+      "county": "fejer",
+      "district": "Dunaújvárosi",
+      "districtSeat": "Dunaújváros",
+      "kshId": "34342"
+    },
+    {
+      "name": "Dég",
+      "slug": "deg",
+      "county": "fejer",
+      "district": "Enyingi",
+      "districtSeat": "Enying",
+      "kshId": "32753"
+    },
+    {
+      "name": "Délegyháza",
+      "slug": "delegyhaza",
+      "county": "pest",
+      "district": "Szigetszentmiklósi",
+      "districtSeat": "Szigetszentmiklós",
+      "kshId": "09973"
+    },
+    {
+      "name": "Diósd",
+      "slug": "diosd",
+      "county": "pest",
+      "district": "Érdi",
+      "districtSeat": "Érd",
+      "kshId": "24013"
+    },
+    {
+      "name": "Domony",
+      "slug": "domony",
+      "county": "pest",
+      "district": "Aszódi",
+      "districtSeat": "Aszód",
+      "kshId": "04808"
+    },
+    {
+      "name": "Dömsöd",
+      "slug": "domsod",
+      "county": "pest",
+      "district": "Ráckevei",
+      "districtSeat": "Ráckeve",
+      "kshId": "29647"
+    },
+    {
+      "name": "Dunabogdány",
+      "slug": "dunabogdany",
+      "county": "pest",
+      "district": "Szentendrei",
+      "districtSeat": "Szentendre",
+      "kshId": "25362"
+    },
+    {
+      "name": "Dunaharaszti",
+      "slug": "dunaharaszti",
+      "county": "pest",
+      "district": "Szigetszentmiklósi",
+      "districtSeat": "Szigetszentmiklós",
+      "kshId": "09584"
+    },
+    {
+      "name": "Dunakeszi",
+      "slug": "dunakeszi",
+      "county": "pest",
+      "district": "Dunakeszi",
+      "districtSeat": "Dunakeszi",
+      "kshId": "18616"
+    },
+    {
+      "name": "Dunaújváros",
+      "slug": "dunaujvaros",
+      "county": "fejer",
+      "district": "Dunaújvárosi",
+      "districtSeat": "Dunaújváros",
+      "kshId": "03115"
+    },
+    {
+      "name": "Dunavarsány",
+      "slug": "dunavarsany",
+      "county": "pest",
+      "district": "Szigetszentmiklósi",
+      "districtSeat": "Szigetszentmiklós",
+      "kshId": "20534"
+    },
+    {
+      "name": "Ecser",
+      "slug": "ecser",
+      "county": "pest",
+      "district": "Vecsési",
+      "districtSeat": "Vecsés",
+      "kshId": "24518"
+    },
+    {
+      "name": "Előszállás",
+      "slug": "eloszallas",
+      "county": "fejer",
+      "district": "Dunaújvárosi",
+      "districtSeat": "Dunaújváros",
+      "kshId": "20358"
+    },
+    {
+      "name": "Enying",
+      "slug": "enying",
+      "county": "fejer",
+      "district": "Enyingi",
+      "districtSeat": "Enying",
+      "kshId": "02802"
+    },
+    {
+      "name": "Ercsi",
+      "slug": "ercsi",
+      "county": "fejer",
+      "district": "Martonvásári",
+      "districtSeat": "Martonvásár",
+      "kshId": "23603"
+    },
+    {
+      "name": "Érd",
+      "slug": "erd",
+      "county": "pest",
+      "district": "Érdi",
+      "districtSeat": "Érd",
+      "kshId": "30988"
+    },
+    {
+      "name": "Erdőkertes",
+      "slug": "erdokertes",
+      "county": "pest",
+      "district": "Gödöllői",
+      "districtSeat": "Gödöllő",
+      "kshId": "13480"
+    },
+    {
+      "name": "Etyek",
+      "slug": "etyek",
+      "county": "fejer",
+      "district": "Bicskei",
+      "districtSeat": "Bicske",
+      "kshId": "02316"
+    },
+    {
+      "name": "Farmos",
+      "slug": "farmos",
+      "county": "pest",
+      "district": "Nagykátai",
+      "districtSeat": "Nagykáta",
+      "kshId": "09122"
+    },
+    {
+      "name": "Fehérvárcsurgó",
+      "slug": "fehervarcsurgo",
+      "county": "fejer",
+      "district": "Móri",
+      "districtSeat": "Mór",
+      "kshId": "32203"
+    },
+    {
+      "name": "Felcsút",
+      "slug": "felcsut",
+      "county": "fejer",
+      "district": "Bicskei",
+      "districtSeat": "Bicske",
+      "kshId": "29939"
+    },
+    {
+      "name": "Felsőpakony",
+      "slug": "felsopakony",
+      "county": "pest",
+      "district": "Gyáli",
+      "districtSeat": "Gyál",
+      "kshId": "06035"
+    },
+    {
+      "name": "Fót",
+      "slug": "fot",
+      "county": "pest",
+      "district": "Dunakeszi",
+      "districtSeat": "Dunakeszi",
+      "kshId": "32610"
+    },
+    {
+      "name": "Füle",
+      "slug": "fule",
+      "county": "fejer",
+      "district": "Székesfehérvári",
+      "districtSeat": "Székesfehérvár",
+      "kshId": "06114"
+    },
+    {
+      "name": "Galgagyörk",
+      "slug": "galgagyork",
+      "county": "pest",
+      "district": "Váci",
+      "districtSeat": "Vác",
+      "kshId": "13295"
+    },
+    {
+      "name": "Galgahévíz",
+      "slug": "galgaheviz",
+      "county": "pest",
+      "district": "Aszódi",
+      "districtSeat": "Aszód",
+      "kshId": "19503"
+    },
+    {
+      "name": "Galgamácsa",
+      "slug": "galgamacsa",
+      "county": "pest",
+      "district": "Aszódi",
+      "districtSeat": "Aszód",
+      "kshId": "27128"
+    },
+    {
+      "name": "Gánt",
+      "slug": "gant",
+      "county": "fejer",
+      "district": "Bicskei",
+      "districtSeat": "Bicske",
+      "kshId": "15750"
+    },
+    {
+      "name": "Gárdony",
+      "slug": "gardony",
+      "county": "fejer",
+      "district": "Gárdonyi",
+      "districtSeat": "Gárdony",
+      "kshId": "10296",
+      "aliases": [
+        "Agárd"
+      ]
+    },
+    {
+      "name": "Gomba",
+      "slug": "gomba",
+      "county": "pest",
+      "district": "Monori",
+      "districtSeat": "Monor",
+      "kshId": "09441"
+    },
+    {
+      "name": "Göd",
+      "slug": "god",
+      "county": "pest",
+      "district": "Dunakeszi",
+      "districtSeat": "Dunakeszi",
+      "kshId": "23649"
+    },
+    {
+      "name": "Gödöllő",
+      "slug": "godollo",
+      "county": "pest",
+      "district": "Gödöllői",
+      "districtSeat": "Gödöllő",
+      "kshId": "32559"
+    },
+    {
+      "name": "Gyál",
+      "slug": "gyal",
+      "county": "pest",
+      "district": "Gyáli",
+      "districtSeat": "Gyál",
+      "kshId": "25627"
+    },
+    {
+      "name": "Gyömrő",
+      "slug": "gyomro",
+      "county": "pest",
+      "district": "Monori",
+      "districtSeat": "Monor",
+      "kshId": "29735"
+    },
+    {
+      "name": "Gyúró",
+      "slug": "gyuro",
+      "county": "fejer",
+      "district": "Martonvásári",
+      "districtSeat": "Martonvásár",
+      "kshId": "15918"
+    },
+    {
+      "name": "Halásztelek",
+      "slug": "halasztelek",
+      "county": "pest",
+      "district": "Szigetszentmiklósi",
+      "districtSeat": "Szigetszentmiklós",
+      "kshId": "09690"
+    },
+    {
+      "name": "Hantos",
+      "slug": "hantos",
+      "county": "fejer",
+      "district": "Sárbogárdi",
+      "districtSeat": "Sárbogárd",
+      "kshId": "23427"
+    },
+    {
+      "name": "Herceghalom",
+      "slug": "herceghalom",
+      "county": "pest",
+      "district": "Budakeszi",
+      "districtSeat": "Budakeszi",
+      "kshId": "33552"
+    },
+    {
+      "name": "Hernád",
+      "slug": "hernad",
+      "county": "pest",
+      "district": "Dabasi",
+      "districtSeat": "Dabas",
+      "kshId": "09849"
+    },
+    {
+      "name": "Hévízgyörk",
+      "slug": "hevizgyork",
+      "county": "pest",
+      "district": "Aszódi",
+      "districtSeat": "Aszód",
+      "kshId": "13949"
+    },
+    {
+      "name": "Igar",
+      "slug": "igar",
+      "county": "fejer",
+      "district": "Sárbogárdi",
+      "districtSeat": "Sárbogárd",
+      "kshId": "17738"
+    },
+    {
+      "name": "Iklad",
+      "slug": "iklad",
+      "county": "pest",
+      "district": "Aszódi",
+      "districtSeat": "Aszód",
+      "kshId": "03300"
+    },
+    {
+      "name": "Inárcs",
+      "slug": "inarcs",
+      "county": "pest",
+      "district": "Dabasi",
+      "districtSeat": "Dabas",
+      "kshId": "32106"
+    },
+    {
+      "name": "Ipolydamásd",
+      "slug": "ipolydamasd",
+      "county": "pest",
+      "district": "Szobi",
+      "districtSeat": "Szob",
+      "kshId": "28097"
+    },
+    {
+      "name": "Ipolytölgyes",
+      "slug": "ipolytolgyes",
+      "county": "pest",
+      "district": "Szobi",
+      "districtSeat": "Szob",
+      "kshId": "04978"
+    },
+    {
+      "name": "Isaszeg",
+      "slug": "isaszeg",
+      "county": "pest",
+      "district": "Gödöllői",
+      "districtSeat": "Gödöllő",
+      "kshId": "07807"
+    },
+    {
+      "name": "Iszkaszentgyörgy",
+      "slug": "iszkaszentgyorgy",
+      "county": "fejer",
+      "district": "Székesfehérvári",
+      "districtSeat": "Székesfehérvár",
+      "kshId": "32018"
+    },
+    {
+      "name": "Isztimér",
+      "slug": "isztimer",
+      "county": "fejer",
+      "district": "Móri",
+      "districtSeat": "Mór",
+      "kshId": "02200"
+    },
+    {
+      "name": "Iváncsa",
+      "slug": "ivancsa",
+      "county": "fejer",
+      "district": "Dunaújvárosi",
+      "districtSeat": "Dunaújváros",
+      "kshId": "13462"
+    },
+    {
+      "name": "Jászkarajenő",
+      "slug": "jaszkarajeno",
+      "county": "pest",
+      "district": "Ceglédi",
+      "districtSeat": "Cegléd",
+      "kshId": "11004"
+    },
+    {
+      "name": "Jenő",
+      "slug": "jeno",
+      "county": "fejer",
+      "district": "Székesfehérvári",
+      "districtSeat": "Székesfehérvár",
+      "kshId": "15972"
+    },
+    {
+      "name": "Kajászó",
+      "slug": "kajaszo",
+      "county": "fejer",
+      "district": "Martonvásári",
+      "districtSeat": "Martonvásár",
+      "kshId": "21342"
+    },
+    {
+      "name": "Kakucs",
+      "slug": "kakucs",
+      "county": "pest",
+      "district": "Dabasi",
+      "districtSeat": "Dabas",
+      "kshId": "32230"
+    },
+    {
+      "name": "Káloz",
+      "slug": "kaloz",
+      "county": "fejer",
+      "district": "Székesfehérvári",
+      "districtSeat": "Székesfehérvár",
+      "kshId": "16683"
+    },
+    {
+      "name": "Kápolnásnyék",
+      "slug": "kapolnasnyek",
+      "county": "fejer",
+      "district": "Gárdonyi",
+      "districtSeat": "Gárdony",
+      "kshId": "21926"
+    },
+    {
+      "name": "Kartal",
+      "slug": "kartal",
+      "county": "pest",
+      "district": "Aszódi",
+      "districtSeat": "Aszód",
+      "kshId": "30696"
+    },
+    {
+      "name": "Káva",
+      "slug": "kava",
+      "county": "pest",
+      "district": "Monori",
+      "districtSeat": "Monor",
+      "kshId": "27827"
+    },
+    {
+      "name": "Kemence",
+      "slug": "kemence",
+      "county": "pest",
+      "district": "Szobi",
+      "districtSeat": "Szob",
+      "kshId": "22345"
+    },
+    {
+      "name": "Kerepes",
+      "slug": "kerepes",
+      "county": "pest",
+      "district": "Gödöllői",
+      "districtSeat": "Gödöllő",
+      "kshId": "34166"
+    },
+    {
+      "name": "Kincsesbánya",
+      "slug": "kincsesbanya",
+      "county": "fejer",
+      "district": "Móri",
+      "districtSeat": "Mór",
+      "kshId": "02343"
+    },
+    {
+      "name": "Kisapostag",
+      "slug": "kisapostag",
+      "county": "fejer",
+      "district": "Dunaújvárosi",
+      "districtSeat": "Dunaújváros",
+      "kshId": "12636"
+    },
+    {
+      "name": "Kiskunlacháza",
+      "slug": "kiskunlachaza",
+      "county": "pest",
+      "district": "Ráckevei",
+      "districtSeat": "Ráckeve",
+      "kshId": "10816"
+    },
+    {
+      "name": "Kisláng",
+      "slug": "kislang",
+      "county": "fejer",
+      "district": "Enyingi",
+      "districtSeat": "Enying",
+      "kshId": "28990"
+    },
+    {
+      "name": "Kismaros",
+      "slug": "kismaros",
+      "county": "pest",
+      "district": "Szobi",
+      "districtSeat": "Szob",
+      "kshId": "33738"
+    },
+    {
+      "name": "Kisnémedi",
+      "slug": "kisnemedi",
+      "county": "pest",
+      "district": "Váci",
+      "districtSeat": "Vác",
+      "kshId": "05227"
+    },
+    {
+      "name": "Kisoroszi",
+      "slug": "kisoroszi",
+      "county": "pest",
+      "district": "Szentendrei",
+      "districtSeat": "Szentendre",
+      "kshId": "29850"
+    },
+    {
+      "name": "Kistarcsa",
+      "slug": "kistarcsa",
+      "county": "pest",
+      "district": "Gödöllői",
+      "districtSeat": "Gödöllő",
+      "kshId": "34157"
+    },
+    {
+      "name": "Kocsér",
+      "slug": "kocser",
+      "county": "pest",
+      "district": "Nagykőrösi",
+      "districtSeat": "Nagykőrös",
+      "kshId": "32771"
+    },
+    {
+      "name": "Kóka",
+      "slug": "koka",
+      "county": "pest",
+      "district": "Nagykátai",
+      "districtSeat": "Nagykáta",
+      "kshId": "31361"
+    },
+    {
+      "name": "Kosd",
+      "slug": "kosd",
+      "county": "pest",
+      "district": "Váci",
+      "districtSeat": "Vác",
+      "kshId": "27687"
+    },
+    {
+      "name": "Kóspallag",
+      "slug": "kospallag",
+      "county": "pest",
+      "district": "Szobi",
+      "districtSeat": "Szob",
+      "kshId": "24679"
+    },
+    {
+      "name": "Kőröstetétlen",
+      "slug": "korostetetlen",
+      "county": "pest",
+      "district": "Ceglédi",
+      "districtSeat": "Cegléd",
+      "kshId": "32975"
+    },
+    {
+      "name": "Kőszárhegy",
+      "slug": "koszarhegy",
+      "county": "fejer",
+      "district": "Székesfehérvári",
+      "districtSeat": "Székesfehérvár",
+      "kshId": "30650"
+    },
+    {
+      "name": "Kulcs",
+      "slug": "kulcs",
+      "county": "fejer",
+      "district": "Dunaújvárosi",
+      "districtSeat": "Dunaújváros",
+      "kshId": "34209"
+    },
+    {
+      "name": "Lajoskomárom",
+      "slug": "lajoskomarom",
+      "county": "fejer",
+      "district": "Enyingi",
+      "districtSeat": "Enying",
+      "kshId": "07506"
+    },
+    {
+      "name": "Leányfalu",
+      "slug": "leanyfalu",
+      "county": "pest",
+      "district": "Szentendrei",
+      "districtSeat": "Szentendre",
+      "kshId": "30809"
+    },
+    {
+      "name": "Lepsény",
+      "slug": "lepseny",
+      "county": "fejer",
+      "district": "Enyingi",
+      "districtSeat": "Enying",
+      "kshId": "07269"
+    },
+    {
+      "name": "Letkés",
+      "slug": "letkes",
+      "county": "pest",
+      "district": "Szobi",
+      "districtSeat": "Szob",
+      "kshId": "22682"
+    },
+    {
+      "name": "Lórév",
+      "slug": "lorev",
+      "county": "pest",
+      "district": "Ráckevei",
+      "districtSeat": "Ráckeve",
+      "kshId": "09140"
+    },
+    {
+      "name": "Lovasberény",
+      "slug": "lovasbereny",
+      "county": "fejer",
+      "district": "Székesfehérvári",
+      "districtSeat": "Székesfehérvár",
+      "kshId": "19114"
+    },
+    {
+      "name": "Maglód",
+      "slug": "maglod",
+      "county": "pest",
+      "district": "Vecsési",
+      "districtSeat": "Vecsés",
+      "kshId": "10922"
+    },
+    {
+      "name": "Magyaralmás",
+      "slug": "magyaralmas",
+      "county": "fejer",
+      "district": "Móri",
+      "districtSeat": "Mór",
+      "kshId": "27678"
+    },
+    {
+      "name": "Majosháza",
+      "slug": "majoshaza",
+      "county": "pest",
+      "district": "Szigetszentmiklósi",
+      "districtSeat": "Szigetszentmiklós",
+      "kshId": "10755"
+    },
+    {
+      "name": "Makád",
+      "slug": "makad",
+      "county": "pest",
+      "district": "Ráckevei",
+      "districtSeat": "Ráckeve",
+      "kshId": "04394"
+    },
+    {
+      "name": "Mány",
+      "slug": "many",
+      "county": "fejer",
+      "district": "Bicskei",
+      "districtSeat": "Bicske",
+      "kshId": "23490"
+    },
+    {
+      "name": "Márianosztra",
+      "slug": "marianosztra",
+      "county": "pest",
+      "district": "Szobi",
+      "districtSeat": "Szob",
+      "kshId": "04570"
+    },
+    {
+      "name": "Martonvásár",
+      "slug": "martonvasar",
+      "county": "fejer",
+      "district": "Martonvásári",
+      "districtSeat": "Martonvásár",
+      "kshId": "04659"
+    },
+    {
+      "name": "Mátyásdomb",
+      "slug": "matyasdomb",
+      "county": "fejer",
+      "district": "Enyingi",
+      "districtSeat": "Enying",
+      "kshId": "16948"
+    },
+    {
+      "name": "Mende",
+      "slug": "mende",
+      "county": "pest",
+      "district": "Nagykátai",
+      "districtSeat": "Nagykáta",
+      "kshId": "03692"
+    },
+    {
+      "name": "Mezőfalva",
+      "slug": "mezofalva",
+      "county": "fejer",
+      "district": "Dunaújvárosi",
+      "districtSeat": "Dunaújváros",
+      "kshId": "17552"
+    },
+    {
+      "name": "Mezőkomárom",
+      "slug": "mezokomarom",
+      "county": "fejer",
+      "district": "Enyingi",
+      "districtSeat": "Enying",
+      "kshId": "05689"
+    },
+    {
+      "name": "Mezőszentgyörgy",
+      "slug": "mezoszentgyorgy",
+      "county": "fejer",
+      "district": "Enyingi",
+      "districtSeat": "Enying",
+      "kshId": "06576"
+    },
+    {
+      "name": "Mezőszilas",
+      "slug": "mezoszilas",
+      "county": "fejer",
+      "district": "Sárbogárdi",
+      "districtSeat": "Sárbogárd",
+      "kshId": "29036"
+    },
+    {
+      "name": "Mikebuda",
+      "slug": "mikebuda",
+      "county": "pest",
+      "district": "Ceglédi",
+      "districtSeat": "Cegléd",
+      "kshId": "24466"
+    },
+    {
+      "name": "Mogyoród",
+      "slug": "mogyorod",
+      "county": "pest",
+      "district": "Gödöllői",
+      "districtSeat": "Gödöllő",
+      "kshId": "17783"
+    },
+    {
+      "name": "Moha",
+      "slug": "moha",
+      "county": "fejer",
+      "district": "Székesfehérvári",
+      "districtSeat": "Székesfehérvár",
+      "kshId": "25715"
+    },
+    {
+      "name": "Monor",
+      "slug": "monor",
+      "county": "pest",
+      "district": "Monori",
+      "districtSeat": "Monor",
+      "kshId": "10551"
+    },
+    {
+      "name": "Monorierdő",
+      "slug": "monorierdo",
+      "county": "pest",
+      "district": "Monori",
+      "districtSeat": "Monor",
+      "kshId": "34397"
+    },
+    {
+      "name": "Mór",
+      "slug": "mor",
+      "county": "fejer",
+      "district": "Móri",
+      "districtSeat": "Mór",
+      "kshId": "18485"
+    },
+    {
+      "name": "Nadap",
+      "slug": "nadap",
+      "county": "fejer",
+      "district": "Gárdonyi",
+      "districtSeat": "Gárdony",
+      "kshId": "27599"
+    },
+    {
+      "name": "Nádasdladány",
+      "slug": "nadasdladany",
+      "county": "fejer",
+      "district": "Székesfehérvári",
+      "districtSeat": "Székesfehérvár",
+      "kshId": "13903"
+    },
+    {
+      "name": "Nagybörzsöny",
+      "slug": "nagyborzsony",
+      "county": "pest",
+      "district": "Szobi",
+      "districtSeat": "Szob",
+      "kshId": "14775"
+    },
+    {
+      "name": "Nagykarácsony",
+      "slug": "nagykaracsony",
+      "county": "fejer",
+      "district": "Dunaújvárosi",
+      "districtSeat": "Dunaújváros",
+      "kshId": "07001"
+    },
+    {
+      "name": "Nagykáta",
+      "slug": "nagykata",
+      "county": "pest",
+      "district": "Nagykátai",
+      "districtSeat": "Nagykáta",
+      "kshId": "13435"
+    },
+    {
+      "name": "Nagykovácsi",
+      "slug": "nagykovacsi",
+      "county": "pest",
+      "district": "Budakeszi",
+      "districtSeat": "Budakeszi",
+      "kshId": "09991"
+    },
+    {
+      "name": "Nagykőrös",
+      "slug": "nagykoros",
+      "county": "pest",
+      "district": "Nagykőrösi",
+      "districtSeat": "Nagykőrös",
+      "kshId": "19716"
+    },
+    {
+      "name": "Nagylók",
+      "slug": "nagylok",
+      "county": "fejer",
+      "district": "Sárbogárdi",
+      "districtSeat": "Sárbogárd",
+      "kshId": "32364"
+    },
+    {
+      "name": "Nagymaros",
+      "slug": "nagymaros",
+      "county": "pest",
+      "district": "Szobi",
+      "districtSeat": "Szob",
+      "kshId": "31732"
+    },
+    {
+      "name": "Nagytarcsa",
+      "slug": "nagytarcsa",
+      "county": "pest",
+      "district": "Gödöllői",
+      "districtSeat": "Gödöllő",
+      "kshId": "23409"
+    },
+    {
+      "name": "Nagyveleg",
+      "slug": "nagyveleg",
+      "county": "fejer",
+      "district": "Móri",
+      "districtSeat": "Mór",
+      "kshId": "23588"
+    },
+    {
+      "name": "Nagyvenyim",
+      "slug": "nagyvenyim",
+      "county": "fejer",
+      "district": "Dunaújvárosi",
+      "districtSeat": "Dunaújváros",
+      "kshId": "26134"
+    },
+    {
+      "name": "Nyáregyháza",
+      "slug": "nyaregyhaza",
+      "county": "pest",
+      "district": "Monori",
+      "districtSeat": "Monor",
+      "kshId": "23038"
+    },
+    {
+      "name": "Nyársapát",
+      "slug": "nyarsapat",
+      "county": "pest",
+      "district": "Nagykőrösi",
+      "districtSeat": "Nagykőrös",
+      "kshId": "20066"
+    },
+    {
+      "name": "Óbarok",
+      "slug": "obarok",
+      "county": "fejer",
+      "district": "Bicskei",
+      "districtSeat": "Bicske",
+      "kshId": "34306"
+    },
+    {
+      "name": "Ócsa",
+      "slug": "ocsa",
+      "county": "pest",
+      "district": "Gyáli",
+      "districtSeat": "Gyál",
+      "kshId": "04075"
+    },
+    {
+      "name": "Őrbottyán",
+      "slug": "orbottyan",
+      "county": "pest",
+      "district": "Váci",
+      "districtSeat": "Vác",
+      "kshId": "08545"
+    },
+    {
+      "name": "Örkény",
+      "slug": "orkeny",
+      "county": "pest",
+      "district": "Dabasi",
+      "districtSeat": "Dabas",
+      "kshId": "05281"
+    },
+    {
+      "name": "Pákozd",
+      "slug": "pakozd",
+      "county": "fejer",
+      "district": "Gárdonyi",
+      "districtSeat": "Gárdony",
+      "kshId": "25751"
+    },
+    {
+      "name": "Pánd",
+      "slug": "pand",
+      "county": "pest",
+      "district": "Monori",
+      "districtSeat": "Monor",
+      "kshId": "22248"
+    },
+    {
+      "name": "Pátka",
+      "slug": "patka",
+      "county": "fejer",
+      "district": "Székesfehérvári",
+      "districtSeat": "Székesfehérvár",
+      "kshId": "28848"
+    },
+    {
+      "name": "Páty",
+      "slug": "paty",
+      "county": "pest",
+      "district": "Budakeszi",
+      "districtSeat": "Budakeszi",
+      "kshId": "15024"
+    },
+    {
+      "name": "Pázmánd",
+      "slug": "pazmand",
+      "county": "fejer",
+      "district": "Gárdonyi",
+      "districtSeat": "Gárdony",
+      "kshId": "21786"
+    },
+    {
+      "name": "Pécel",
+      "slug": "pecel",
+      "county": "pest",
+      "district": "Gödöllői",
+      "districtSeat": "Gödöllő",
+      "kshId": "04057"
+    },
+    {
+      "name": "Penc",
+      "slug": "penc",
+      "county": "pest",
+      "district": "Váci",
+      "districtSeat": "Vác",
+      "kshId": "18689"
+    },
+    {
+      "name": "Perbál",
+      "slug": "perbal",
+      "county": "pest",
+      "district": "Budakeszi",
+      "districtSeat": "Budakeszi",
+      "kshId": "28185"
+    },
+    {
+      "name": "Perkáta",
+      "slug": "perkata",
+      "county": "fejer",
+      "district": "Dunaújvárosi",
+      "districtSeat": "Dunaújváros",
+      "kshId": "19354"
+    },
+    {
+      "name": "Perőcsény",
+      "slug": "perocseny",
+      "county": "pest",
+      "district": "Szobi",
+      "districtSeat": "Szob",
+      "kshId": "04181"
+    },
+    {
+      "name": "Péteri",
+      "slug": "peteri",
+      "county": "pest",
+      "district": "Monori",
+      "districtSeat": "Monor",
+      "kshId": "21847"
+    },
+    {
+      "name": "Pilis",
+      "slug": "pilis",
+      "county": "pest",
+      "district": "Monori",
+      "districtSeat": "Monor",
+      "kshId": "09821"
+    },
+    {
+      "name": "Pilisborosjenő",
+      "slug": "pilisborosjeno",
+      "county": "pest",
+      "district": "Pilisvörösvári",
+      "districtSeat": "Pilisvörösvár",
+      "kshId": "29601"
+    },
+    {
+      "name": "Piliscsaba",
+      "slug": "piliscsaba",
+      "county": "pest",
+      "district": "Pilisvörösvári",
+      "districtSeat": "Pilisvörösvár",
+      "kshId": "07144"
+    },
+    {
+      "name": "Pilisjászfalu",
+      "slug": "pilisjaszfalu",
+      "county": "pest",
+      "district": "Pilisvörösvári",
+      "districtSeat": "Pilisvörösvár",
+      "kshId": "34148"
+    },
+    {
+      "name": "Pilisvörösvár",
+      "slug": "pilisvorosvar",
+      "county": "pest",
+      "district": "Pilisvörösvári",
+      "districtSeat": "Pilisvörösvár",
+      "kshId": "14340"
+    },
+    {
+      "name": "Pilisszántó",
+      "slug": "pilisszanto",
+      "county": "pest",
+      "district": "Pilisvörösvári",
+      "districtSeat": "Pilisvörösvár",
+      "kshId": "05290"
+    },
+    {
+      "name": "Pilisszentiván",
+      "slug": "pilisszentivan",
+      "county": "pest",
+      "district": "Pilisvörösvári",
+      "districtSeat": "Pilisvörösvár",
+      "kshId": "11396"
+    },
+    {
+      "name": "Pilisszentkereszt",
+      "slug": "pilisszentkereszt",
+      "county": "pest",
+      "district": "Szentendrei",
+      "districtSeat": "Szentendre",
+      "kshId": "18731"
+    },
+    {
+      "name": "Pilisszentlászló",
+      "slug": "pilisszentlaszlo",
+      "county": "pest",
+      "district": "Szentendrei",
+      "districtSeat": "Szentendre",
+      "kshId": "08457"
+    },
+    {
+      "name": "Pócsmegyer",
+      "slug": "pocsmegyer",
+      "county": "pest",
+      "district": "Szentendrei",
+      "districtSeat": "Szentendre",
+      "kshId": "04905"
+    },
+    {
+      "name": "Polgárdi",
+      "slug": "polgardi",
+      "county": "fejer",
+      "district": "Székesfehérvári",
+      "districtSeat": "Székesfehérvár",
+      "kshId": "17525"
+    },
+    {
+      "name": "Pomáz",
+      "slug": "pomaz",
+      "county": "pest",
+      "district": "Szentendrei",
+      "districtSeat": "Szentendre",
+      "kshId": "06372"
+    },
+    {
+      "name": "Pusztaszabolcs",
+      "slug": "pusztaszabolcs",
+      "county": "fejer",
+      "district": "Dunaújvárosi",
+      "districtSeat": "Dunaújváros",
+      "kshId": "29018"
+    },
+    {
+      "name": "Pusztavacs",
+      "slug": "pusztavacs",
+      "county": "pest",
+      "district": "Dabasi",
+      "districtSeat": "Dabas",
+      "kshId": "23083"
+    },
+    {
+      "name": "Pusztavám",
+      "slug": "pusztavam",
+      "county": "fejer",
+      "district": "Móri",
+      "districtSeat": "Mór",
+      "kshId": "17774"
+    },
+    {
+      "name": "Pusztazámor",
+      "slug": "pusztazamor",
+      "county": "pest",
+      "district": "Érdi",
+      "districtSeat": "Érd",
+      "kshId": "15583"
+    },
+    {
+      "name": "Püspökhatvan",
+      "slug": "puspokhatvan",
+      "county": "pest",
+      "district": "Váci",
+      "districtSeat": "Vác",
+      "kshId": "21388"
+    },
+    {
+      "name": "Püspökszilágy",
+      "slug": "puspokszilagy",
+      "county": "pest",
+      "district": "Váci",
+      "districtSeat": "Vác",
+      "kshId": "04303"
+    },
+    {
+      "name": "Rácalmás",
+      "slug": "racalmas",
+      "county": "fejer",
+      "district": "Dunaújvárosi",
+      "districtSeat": "Dunaújváros",
+      "kshId": "09900"
+    },
+    {
+      "name": "Ráckeresztúr",
+      "slug": "rackeresztur",
+      "county": "fejer",
+      "district": "Martonvásári",
+      "districtSeat": "Martonvásár",
+      "kshId": "02015"
+    },
+    {
+      "name": "Ráckeve",
+      "slug": "rackeve",
+      "county": "pest",
+      "district": "Ráckevei",
+      "districtSeat": "Ráckeve",
+      "kshId": "17260"
+    },
+    {
+      "name": "Rád",
+      "slug": "rad",
+      "county": "pest",
+      "district": "Váci",
+      "districtSeat": "Vác",
+      "kshId": "02370"
+    },
+    {
+      "name": "Remeteszőlős",
+      "slug": "remeteszolos",
+      "county": "pest",
+      "district": "Budakeszi",
+      "districtSeat": "Budakeszi",
+      "kshId": "34315"
+    },
+    {
+      "name": "Sárbogárd",
+      "slug": "sarbogard",
+      "county": "fejer",
+      "district": "Sárbogárdi",
+      "districtSeat": "Sárbogárd",
+      "kshId": "23694"
+    },
+    {
+      "name": "Sáregres",
+      "slug": "saregres",
+      "county": "fejer",
+      "district": "Sárbogárdi",
+      "districtSeat": "Sárbogárd",
+      "kshId": "02723"
+    },
+    {
+      "name": "Sárkeresztes",
+      "slug": "sarkeresztes",
+      "county": "fejer",
+      "district": "Székesfehérvári",
+      "districtSeat": "Székesfehérvár",
+      "kshId": "31802"
+    },
+    {
+      "name": "Sárkeresztúr",
+      "slug": "sarkeresztur",
+      "county": "fejer",
+      "district": "Sárbogárdi",
+      "districtSeat": "Sárbogárd",
+      "kshId": "25344"
+    },
+    {
+      "name": "Sárkeszi",
+      "slug": "sarkeszi",
+      "county": "fejer",
+      "district": "Székesfehérvári",
+      "districtSeat": "Székesfehérvár",
+      "kshId": "02699"
+    },
+    {
+      "name": "Sárosd",
+      "slug": "sarosd",
+      "county": "fejer",
+      "district": "Székesfehérvári",
+      "districtSeat": "Székesfehérvár",
+      "kshId": "25140"
+    },
+    {
+      "name": "Sárszentágota",
+      "slug": "sarszentagota",
+      "county": "fejer",
+      "district": "Sárbogárdi",
+      "districtSeat": "Sárbogárd",
+      "kshId": "31538"
+    },
+    {
+      "name": "Sárszentmihály",
+      "slug": "sarszentmihaly",
+      "county": "fejer",
+      "district": "Székesfehérvári",
+      "districtSeat": "Székesfehérvár",
+      "kshId": "11776"
+    },
+    {
+      "name": "Seregélyes",
+      "slug": "seregelyes",
+      "county": "fejer",
+      "district": "Székesfehérvári",
+      "districtSeat": "Székesfehérvár",
+      "kshId": "20206"
+    },
+    {
+      "name": "Solymár",
+      "slug": "solymar",
+      "county": "pest",
+      "district": "Pilisvörösvári",
+      "districtSeat": "Pilisvörösvár",
+      "kshId": "07384"
+    },
+    {
+      "name": "Soponya",
+      "slug": "soponya",
+      "county": "fejer",
+      "district": "Székesfehérvári",
+      "districtSeat": "Székesfehérvár",
+      "kshId": "33321"
+    },
+    {
+      "name": "Sóskút",
+      "slug": "soskut",
+      "county": "pest",
+      "district": "Érdi",
+      "districtSeat": "Érd",
+      "kshId": "06840"
+    },
+    {
+      "name": "Söréd",
+      "slug": "sored",
+      "county": "fejer",
+      "district": "Móri",
+      "districtSeat": "Mór",
+      "kshId": "02893"
+    },
+    {
+      "name": "Sukoró",
+      "slug": "sukoro",
+      "county": "fejer",
+      "district": "Gárdonyi",
+      "districtSeat": "Gárdony",
+      "kshId": "14951"
+    },
+    {
+      "name": "Sülysáp",
+      "slug": "sulysap",
+      "county": "pest",
+      "district": "Nagykátai",
+      "districtSeat": "Nagykáta",
+      "kshId": "21713"
+    },
+    {
+      "name": "Szabadbattyán",
+      "slug": "szabadbattyan",
+      "county": "fejer",
+      "district": "Székesfehérvári",
+      "districtSeat": "Székesfehérvár",
+      "kshId": "28705"
+    },
+    {
+      "name": "Szabadegyháza",
+      "slug": "szabadegyhaza",
+      "county": "fejer",
+      "district": "Gárdonyi",
+      "districtSeat": "Gárdony",
+      "kshId": "13259"
+    },
+    {
+      "name": "Szabadhídvég",
+      "slug": "szabadhidveg",
+      "county": "fejer",
+      "district": "Enyingi",
+      "districtSeat": "Enying",
+      "kshId": "18740"
+    },
+    {
+      "name": "Szada",
+      "slug": "szada",
+      "county": "pest",
+      "district": "Gödöllői",
+      "districtSeat": "Gödöllő",
+      "kshId": "21458"
+    },
+    {
+      "name": "Szár",
+      "slug": "szar",
+      "county": "fejer",
+      "district": "Bicskei",
+      "districtSeat": "Bicske",
+      "kshId": "19549"
+    },
+    {
+      "name": "Százhalombatta",
+      "slug": "szazhalombatta",
+      "county": "pest",
+      "district": "Érdi",
+      "districtSeat": "Érd",
+      "kshId": "17312"
+    },
+    {
+      "name": "Székesfehérvár",
+      "slug": "szekesfehervar",
+      "county": "fejer",
+      "district": "Székesfehérvári",
+      "districtSeat": "Székesfehérvár",
+      "kshId": "14827"
+    },
+    {
+      "name": "Szentendre",
+      "slug": "szentendre",
+      "county": "pest",
+      "district": "Szentendrei",
+      "districtSeat": "Szentendre",
+      "kshId": "15440"
+    },
+    {
+      "name": "Szentlőrinckáta",
+      "slug": "szentlorinckata",
+      "county": "pest",
+      "district": "Nagykátai",
+      "districtSeat": "Nagykáta",
+      "kshId": "07542"
+    },
+    {
+      "name": "Szentmártonkáta",
+      "slug": "szentmartonkata",
+      "county": "pest",
+      "district": "Nagykátai",
+      "districtSeat": "Nagykáta",
+      "kshId": "28653"
+    },
+    {
+      "name": "Szigetbecse",
+      "slug": "szigetbecse",
+      "county": "pest",
+      "district": "Ráckevei",
+      "districtSeat": "Ráckeve",
+      "kshId": "26259"
+    },
+    {
+      "name": "Szigetcsép",
+      "slug": "szigetcsep",
+      "county": "pest",
+      "district": "Ráckevei",
+      "districtSeat": "Ráckeve",
+      "kshId": "07870"
+    },
+    {
+      "name": "Szigethalom",
+      "slug": "szigethalom",
+      "county": "pest",
+      "district": "Szigetszentmiklósi",
+      "districtSeat": "Szigetszentmiklós",
+      "kshId": "13277"
+    },
+    {
+      "name": "Szigetmonostor",
+      "slug": "szigetmonostor",
+      "county": "pest",
+      "district": "Szentendrei",
+      "districtSeat": "Szentendre",
+      "kshId": "26213"
+    },
+    {
+      "name": "Szigetszentmárton",
+      "slug": "szigetszentmarton",
+      "county": "pest",
+      "district": "Ráckevei",
+      "districtSeat": "Ráckeve",
+      "kshId": "15185"
+    },
+    {
+      "name": "Szigetszentmiklós",
+      "slug": "szigetszentmiklos",
+      "county": "pest",
+      "district": "Szigetszentmiklósi",
+      "districtSeat": "Szigetszentmiklós",
+      "kshId": "28954"
+    },
+    {
+      "name": "Szigetújfalu",
+      "slug": "szigetujfalu",
+      "county": "pest",
+      "district": "Ráckevei",
+      "districtSeat": "Ráckeve",
+      "kshId": "22114"
+    },
+    {
+      "name": "Szob",
+      "slug": "szob",
+      "county": "pest",
+      "district": "Szobi",
+      "districtSeat": "Szob",
+      "kshId": "24916"
+    },
+    {
+      "name": "Szokolya",
+      "slug": "szokolya",
+      "county": "pest",
+      "district": "Szobi",
+      "districtSeat": "Szob",
+      "kshId": "06947"
+    },
+    {
+      "name": "Sződ",
+      "slug": "szod",
+      "county": "pest",
+      "district": "Váci",
+      "districtSeat": "Vác",
+      "kshId": "12690"
+    },
+    {
+      "name": "Sződliget",
+      "slug": "szodliget",
+      "county": "pest",
+      "district": "Váci",
+      "districtSeat": "Vác",
+      "kshId": "28866"
+    },
+    {
+      "name": "Tabajd",
+      "slug": "tabajd",
+      "county": "fejer",
+      "district": "Bicskei",
+      "districtSeat": "Bicske",
+      "kshId": "14465"
+    },
+    {
+      "name": "Táborfalva",
+      "slug": "taborfalva",
+      "county": "pest",
+      "district": "Dabasi",
+      "districtSeat": "Dabas",
+      "kshId": "08332"
+    },
+    {
+      "name": "Tác",
+      "slug": "tac",
+      "county": "fejer",
+      "district": "Székesfehérvári",
+      "districtSeat": "Székesfehérvár",
+      "kshId": "29267"
+    },
+    {
+      "name": "Tahitótfalu",
+      "slug": "tahitotfalu",
+      "county": "pest",
+      "district": "Szentendrei",
+      "districtSeat": "Szentendre",
+      "kshId": "31963"
+    },
+    {
+      "name": "Taksony",
+      "slug": "taksony",
+      "county": "pest",
+      "district": "Szigetszentmiklósi",
+      "districtSeat": "Szigetszentmiklós",
+      "kshId": "30720"
+    },
+    {
+      "name": "Tápióbicske",
+      "slug": "tapiobicske",
+      "county": "pest",
+      "district": "Nagykátai",
+      "districtSeat": "Nagykáta",
+      "kshId": "15015"
+    },
+    {
+      "name": "Tápiógyörgye",
+      "slug": "tapiogyorgye",
+      "county": "pest",
+      "district": "Nagykátai",
+      "districtSeat": "Nagykáta",
+      "kshId": "17303"
+    },
+    {
+      "name": "Tápióság",
+      "slug": "tapiosag",
+      "county": "pest",
+      "district": "Nagykátai",
+      "districtSeat": "Nagykáta",
+      "kshId": "09405"
+    },
+    {
+      "name": "Tápiószecső",
+      "slug": "tapioszecso",
+      "county": "pest",
+      "district": "Nagykátai",
+      "districtSeat": "Nagykáta",
+      "kshId": "31796"
+    },
+    {
+      "name": "Tápiószele",
+      "slug": "tapioszele",
+      "county": "pest",
+      "district": "Nagykátai",
+      "districtSeat": "Nagykáta",
+      "kshId": "14146"
+    },
+    {
+      "name": "Tápiószentmárton",
+      "slug": "tapioszentmarton",
+      "county": "pest",
+      "district": "Nagykátai",
+      "districtSeat": "Nagykáta",
+      "kshId": "14571"
+    },
+    {
+      "name": "Tápiószőlős",
+      "slug": "tapioszolos",
+      "county": "pest",
+      "district": "Ceglédi",
+      "districtSeat": "Cegléd",
+      "kshId": "02769"
+    },
+    {
+      "name": "Tárnok",
+      "slug": "tarnok",
+      "county": "pest",
+      "district": "Érdi",
+      "districtSeat": "Érd",
+      "kshId": "04154"
+    },
+    {
+      "name": "Tatárszentgyörgy",
+      "slug": "tatarszentgyorgy",
+      "county": "pest",
+      "district": "Dabasi",
+      "districtSeat": "Dabas",
+      "kshId": "27386"
+    },
+    {
+      "name": "Telki",
+      "slug": "telki",
+      "county": "pest",
+      "district": "Budakeszi",
+      "districtSeat": "Budakeszi",
+      "kshId": "08280"
+    },
+    {
+      "name": "Tésa",
+      "slug": "tesa",
+      "county": "pest",
+      "district": "Szobi",
+      "districtSeat": "Szob",
+      "kshId": "19248"
+    },
+    {
+      "name": "Tinnye",
+      "slug": "tinnye",
+      "county": "pest",
+      "district": "Pilisvörösvári",
+      "districtSeat": "Pilisvörösvár",
+      "kshId": "07108"
+    },
+    {
+      "name": "Tóalmás",
+      "slug": "toalmas",
+      "county": "pest",
+      "district": "Nagykátai",
+      "districtSeat": "Nagykáta",
+      "kshId": "21467"
+    },
+    {
+      "name": "Tordas",
+      "slug": "tordas",
+      "county": "fejer",
+      "district": "Martonvásári",
+      "districtSeat": "Martonvásár",
+      "kshId": "21005"
+    },
+    {
+      "name": "Tök",
+      "slug": "tok",
+      "county": "pest",
+      "district": "Budakeszi",
+      "districtSeat": "Budakeszi",
+      "kshId": "24527"
+    },
+    {
+      "name": "Tököl",
+      "slug": "tokol",
+      "county": "pest",
+      "district": "Szigetszentmiklósi",
+      "districtSeat": "Szigetszentmiklós",
+      "kshId": "29823"
+    },
+    {
+      "name": "Törökbálint",
+      "slug": "torokbalint",
+      "county": "pest",
+      "district": "Érdi",
+      "districtSeat": "Érd",
+      "kshId": "06859"
+    },
+    {
+      "name": "Törtel",
+      "slug": "tortel",
+      "county": "pest",
+      "district": "Ceglédi",
+      "districtSeat": "Cegléd",
+      "kshId": "22008"
+    },
+    {
+      "name": "Tura",
+      "slug": "tura",
+      "county": "pest",
+      "district": "Aszódi",
+      "districtSeat": "Aszód",
+      "kshId": "09593"
+    },
+    {
+      "name": "Újbarok",
+      "slug": "ujbarok",
+      "county": "fejer",
+      "district": "Bicskei",
+      "districtSeat": "Bicske",
+      "kshId": "17482"
+    },
+    {
+      "name": "Újhartyán",
+      "slug": "ujhartyan",
+      "county": "pest",
+      "district": "Dabasi",
+      "districtSeat": "Dabas",
+      "kshId": "06293"
+    },
+    {
+      "name": "Újlengyel",
+      "slug": "ujlengyel",
+      "county": "pest",
+      "district": "Dabasi",
+      "districtSeat": "Dabas",
+      "kshId": "19682"
+    },
+    {
+      "name": "Újszilvás",
+      "slug": "ujszilvas",
+      "county": "pest",
+      "district": "Ceglédi",
+      "districtSeat": "Cegléd",
+      "kshId": "17808"
+    },
+    {
+      "name": "Úrhida",
+      "slug": "urhida",
+      "county": "fejer",
+      "district": "Székesfehérvári",
+      "districtSeat": "Székesfehérvár",
+      "kshId": "17622"
+    },
+    {
+      "name": "Úri",
+      "slug": "uri",
+      "county": "pest",
+      "district": "Nagykátai",
+      "districtSeat": "Nagykáta",
+      "kshId": "28644"
+    },
+    {
+      "name": "Üllő",
+      "slug": "ullo",
+      "county": "pest",
+      "district": "Vecsési",
+      "districtSeat": "Vecsés",
+      "kshId": "12894"
+    },
+    {
+      "name": "Üröm",
+      "slug": "urom",
+      "county": "pest",
+      "district": "Pilisvörösvári",
+      "districtSeat": "Pilisvörösvár",
+      "kshId": "11934"
+    },
+    {
+      "name": "Vác",
+      "slug": "vac",
+      "county": "pest",
+      "district": "Váci",
+      "districtSeat": "Vác",
+      "kshId": "24934"
+    },
+    {
+      "name": "Vácduka",
+      "slug": "vacduka",
+      "county": "pest",
+      "district": "Váci",
+      "districtSeat": "Vác",
+      "kshId": "05917"
+    },
+    {
+      "name": "Vácegres",
+      "slug": "vacegres",
+      "county": "pest",
+      "district": "Aszódi",
+      "districtSeat": "Aszód",
+      "kshId": "30331"
+    },
+    {
+      "name": "Váchartyán",
+      "slug": "vachartyan",
+      "county": "pest",
+      "district": "Váci",
+      "districtSeat": "Vác",
+      "kshId": "19886"
+    },
+    {
+      "name": "Váckisújfalu",
+      "slug": "vackisujfalu",
+      "county": "pest",
+      "district": "Váci",
+      "districtSeat": "Vác",
+      "kshId": "05698"
+    },
+    {
+      "name": "Vácrátót",
+      "slug": "vacratot",
+      "county": "pest",
+      "district": "Váci",
+      "districtSeat": "Vác",
+      "kshId": "17668"
+    },
+    {
+      "name": "Vácszentlászló",
+      "slug": "vacszentlaszlo",
+      "county": "pest",
+      "district": "Gödöllői",
+      "districtSeat": "Gödöllő",
+      "kshId": "09104"
+    },
+    {
+      "name": "Vajta",
+      "slug": "vajta",
+      "county": "fejer",
+      "district": "Sárbogárdi",
+      "districtSeat": "Sárbogárd",
+      "kshId": "02459"
+    },
+    {
+      "name": "Vál",
+      "slug": "val",
+      "county": "fejer",
+      "district": "Martonvásári",
+      "districtSeat": "Martonvásár",
+      "kshId": "05829"
+    },
+    {
+      "name": "Valkó",
+      "slug": "valko",
+      "county": "pest",
+      "district": "Gödöllői",
+      "districtSeat": "Gödöllő",
+      "kshId": "17598"
+    },
+    {
+      "name": "Vámosmikola",
+      "slug": "vamosmikola",
+      "county": "pest",
+      "district": "Szobi",
+      "districtSeat": "Szob",
+      "kshId": "10737"
+    },
+    {
+      "name": "Vasad",
+      "slug": "vasad",
+      "county": "pest",
+      "district": "Monori",
+      "districtSeat": "Monor",
+      "kshId": "22585"
+    },
+    {
+      "name": "Vecsés",
+      "slug": "vecses",
+      "county": "pest",
+      "district": "Vecsési",
+      "districtSeat": "Vecsés",
+      "kshId": "26815"
+    },
+    {
+      "name": "Velence",
+      "slug": "velence",
+      "county": "fejer",
+      "district": "Gárdonyi",
+      "districtSeat": "Gárdony",
+      "kshId": "25016"
+    },
+    {
+      "name": "Vereb",
+      "slug": "vereb",
+      "county": "fejer",
+      "district": "Gárdonyi",
+      "districtSeat": "Gárdony",
+      "kshId": "03498"
+    },
+    {
+      "name": "Veresegyház",
+      "slug": "veresegyhaz",
+      "county": "pest",
+      "district": "Gödöllői",
+      "districtSeat": "Gödöllő",
+      "kshId": "18342"
+    },
+    {
+      "name": "Verőce",
+      "slug": "veroce",
+      "county": "pest",
+      "district": "Szobi",
+      "districtSeat": "Szob",
+      "kshId": "33729"
+    },
+    {
+      "name": "Verseg",
+      "slug": "verseg",
+      "county": "pest",
+      "district": "Aszódi",
+      "districtSeat": "Aszód",
+      "kshId": "22488"
+    },
+    {
+      "name": "Vértesacsa",
+      "slug": "vertesacsa",
+      "county": "fejer",
+      "district": "Bicskei",
+      "districtSeat": "Bicske",
+      "kshId": "02750"
+    },
+    {
+      "name": "Vértesboglár",
+      "slug": "vertesboglar",
+      "county": "fejer",
+      "district": "Bicskei",
+      "districtSeat": "Bicske",
+      "kshId": "13897"
+    },
+    {
+      "name": "Visegrád",
+      "slug": "visegrad",
+      "county": "pest",
+      "district": "Szentendrei",
+      "districtSeat": "Szentendre",
+      "kshId": "28413"
+    },
+    {
+      "name": "Zámoly",
+      "slug": "zamoly",
+      "county": "fejer",
+      "district": "Székesfehérvári",
+      "districtSeat": "Székesfehérvár",
+      "kshId": "30243"
+    },
+    {
+      "name": "Zebegény",
+      "slug": "zebegeny",
+      "county": "pest",
+      "district": "Szobi",
+      "districtSeat": "Szob",
+      "kshId": "14960"
+    },
+    {
+      "name": "Zichyújfalu",
+      "slug": "zichyujfalu",
+      "county": "fejer",
+      "district": "Gárdonyi",
+      "districtSeat": "Gárdony",
+      "kshId": "34263"
+    },
+    {
+      "name": "Zsámbék",
+      "slug": "zsambek",
+      "county": "pest",
+      "district": "Budakeszi",
+      "districtSeat": "Budakeszi",
+      "kshId": "25034"
+    },
+    {
+      "name": "Zsámbok",
+      "slug": "zsambok",
+      "county": "pest",
+      "district": "Gödöllői",
+      "districtSeat": "Gödöllő",
+      "kshId": "22035"
+    }
+  ]
+}
