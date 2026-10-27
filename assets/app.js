@@ -1,9 +1,12 @@
 'use strict';
+document.documentElement.classList.add('js-enabled');
 const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelectorAll(s)];
 const config=window.BOKRODI_CONFIG||{};
 const menu=$('.menu-toggle'), nav=$('#main-nav');
 menu?.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')!=='true';menu.setAttribute('aria-expanded',String(open));menu.setAttribute('aria-label',open?'Menü bezárása':'Menü megnyitása');nav.classList.toggle('open',open);menu.textContent=open?'×':'☰';});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&nav?.classList.contains('open')){menu.click();menu.focus();}});
+nav?.addEventListener('click',e=>{if(e.target.closest('a')&&nav.classList.contains('open'))menu.click();});
+window.matchMedia('(min-width:761px)').addEventListener('change',()=>{if(nav?.classList.contains('open'))menu.click();});
 $$('dialog').forEach(dialog=>{dialog.addEventListener('close',()=>document.body.classList.remove('modal-open'));$('.close-dialog',dialog)?.addEventListener('click',()=>dialog.close());dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}});});
 function openDialog(dialog){dialog.showModal();document.body.classList.add('modal-open');}
 $$('[data-dialog]').forEach(b=>b.addEventListener('click',()=>openDialog(document.getElementById(b.dataset.dialog))));
