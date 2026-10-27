@@ -12,7 +12,7 @@
   pointer-events: none;
 }
 .guarantee-call__badge {
-  width: 160px;
+  width: 131.2px;
   height: auto;
   object-fit: contain;
   filter: drop-shadow(0 3px 5px #16281d38);
@@ -55,7 +55,7 @@
 body > footer { padding-bottom: calc(250px + env(safe-area-inset-bottom)); }
 @media (max-width: 760px) {
   .guarantee-call { right: max(10px, env(safe-area-inset-right)); bottom: max(10px, env(safe-area-inset-bottom)); width: 156px; gap: 6px; }
-  .guarantee-call__badge { width: 112px; }
+  .guarantee-call__badge { width: 91.84px; }
   .guarantee-call__button { min-height: 52px; padding: 8px 9px; gap: 7px; border-radius: 9px; }
   .guarantee-call__button svg { width: 19px; height: 19px; flex-basis: 19px; }
   .guarantee-call__label { font-size: 10px; }
@@ -63,7 +63,7 @@ body > footer { padding-bottom: calc(250px + env(safe-area-inset-bottom)); }
   body > footer { padding-bottom: calc(190px + env(safe-area-inset-bottom)); }
 }
 @media (max-height: 480px) {
-  .guarantee-call__badge { width: 80px; }
+  .guarantee-call__badge { width: 65.6px; }
 }
 @media (prefers-reduced-motion: reduce) {
   .guarantee-call__button { transition: none; }
