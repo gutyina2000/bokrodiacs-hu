@@ -23,27 +23,7 @@ function chooseReview(b){reviewTabs.forEach(x=>{x.setAttribute('aria-selected',S
 reviewTabs.forEach(b=>{b.addEventListener('click',()=>chooseReview(b));b.addEventListener('keydown',e=>{if(['ArrowLeft','ArrowRight','Home','End'].includes(e.key)){e.preventDefault();let next=e.key==='Home'?reviewTabs[0]:e.key==='End'?reviewTabs.at(-1):reviewTabs[(reviewTabs.indexOf(b)+1)%reviewTabs.length];chooseReview(next);next.focus();}});});
 if(reviewTabs.length)chooseReview(reviewTabs[0]);
 const names={fejer:'Fejér vármegye',pest:'Pest vármegye',budapest:'Budapest'};
-const normal=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().trim();
-let selectedRegion='';
-function filterTowns(){
- const search=normal($('#town-search').value);let visible=0;
- $$('[data-town]').forEach(a=>{a.hidden=!!((selectedRegion&&a.dataset.townRegion!==selectedRegion)||!normal(a.dataset.town).includes(search));if(!a.hidden)visible++;});
- $('#town-empty').hidden=visible>0;
-}
-function selectRegion(region){
- selectedRegion=region;
- $$('[data-region]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.region===region)));
- $('#area-kicker').textContent='SZOLGÁLTATÁSI TERÜLET';
- $('#area-title').textContent=names[region]||'Hol valósulna meg az elképzelése?';
- $('#area-description').textContent=region?'Válasszon a felsorolt helyszínek közül. A kiszállás részleteit egyeztetjük.':'A lista a vállalt helyszíneket mutatja. A térképpel térségre szűrhet.';
- $('#area-quote').href='kapcsolat.html'+(region?'?terulet='+region:'')+'#ajanlatkeres';
- filterTowns();
-}
-if($('#town-list')){
- $$('[data-region]').forEach(b=>{b.addEventListener('click',()=>selectRegion(b.dataset.region));if(b.tagName.toLowerCase()==='path')b.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();selectRegion(b.dataset.region);}});});
- $('#town-search').addEventListener('input',filterTowns);
- $('#map-reset').addEventListener('click',()=>{$('#town-search').value='';selectRegion('');});
-}
+// Area search and map controls: assets/areas.js.
 const legacyAnchors={tetoszerkezet:'acsmunkak',felujitas:'acsmunkak',pergola:'kerti-kiulok',egyedi:'acsmunkak'};
 const legacyTarget=legacyAnchors[location.hash.slice(1)];
 if(legacyTarget&&document.getElementById(legacyTarget)){history.replaceState(null,'','#'+legacyTarget);document.getElementById(legacyTarget).scrollIntoView();}
