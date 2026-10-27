@@ -26,7 +26,7 @@ A megjelenést az `assets/guarantee-call.css`, a jelvényt az `assets/brand/gara
 - A főoldali térkép mind a 295 települést és Budapestet eléri. Agárd a Gárdony-oldal kereshető aliasa, nem külön önálló település. A meglévő `#teruletek` horgony megmarad.
 - A főmenü és a lábléc a külön területi áttekintőre mutat. A meglévő oldalak URL-je nem változik.
 - Egyedi title és meta description, önmagára mutató canonical, Open Graph URL, BreadcrumbList és Service strukturált adatok. Egyetlen közös szolgáltató, kitalált helyi címek/irodák és értékelések nélkül.
-- A `robots.txt` engedélyezi a feltérképezést, a noindex tiltás megszűnik; a `sitemap.xml` mind a 310 HTML-oldal kanonikus URL-jét felsorolja. A kész kód önmagában nem jelent Google-indexelést vagy rangsorolási ígéretet.
+- A `robots.txt` engedélyezi a feltérképezést, a noindex tiltás megszűnik; a `sitemap.xml` mind a 311 HTML-oldal kanonikus URL-jét felsorolja. A kész kód önmagában nem jelent Google-indexelést vagy rangsorolási ígéretet.
 
 ### Hiteles forrás és karbantartás
 
@@ -34,7 +34,7 @@ A `data/settlements.json` a KSH 2026. január 1-jei Helységnévtárának Fejér
 
 Generálás: `node scripts/generate-areas.mjs`. Ellenőrzés: `node scripts/check-areas.mjs`. Külső csomag és futásidejű adatletöltés nem szükséges. A megyei és településoldalakat a `scripts/areas-builder.mjs` és az adatállomány alapján kell módosítani, majd újragenerálni; a közvetlen HTML-szerkesztést a következő generálás felülírja.
 
-A generátor újrafuttatása nem okoz további változást. A gépi ellenőrzés a 295 település teljességét, a 310 oldalt, minden helyi linket/képhivatkozást/horgonyt, a metaadatokat, a JSON-LD-t, a sitemap egyezését és az ismételt generálás stabilitását vizsgálja.
+A generátor újrafuttatása nem okoz további változást. A gépi ellenőrzés a 295 település teljességét, a 311 oldalt, minden helyi linket/képhivatkozást/horgonyt, a metaadatokat, a JSON-LD-t, a sitemap egyezését és az ismételt generálás stabilitását vizsgálja.
 
 Böngészőben ellenőrizve: Fejér 108 / Pest 187 találata, ékezet nélküli keresés, Agárd → Gárdony, üres találat és visszaállítás, megyei szűrés a főoldali térképen, településoldal megnyitása, mobilmenü, lenyíló kérdések, képek, 390 és 320 px szélesség. Nincs JS-hiba vagy vízszintes túlcsordulás a vizsgált nézetekben. A linkek és a tartalom eleve HTML-ben szerepelnek, JavaScript csak a szűréshez kell.
 
@@ -42,4 +42,25 @@ Böngészőben ellenőrizve: Fejér 108 / Pest 187 találata, ékezet nélküli 
 
 Ez a változat külön ágon készül elő. A `main` GitHub Pages kiadása a felhasználó élesítési megerősítése után frissítendő. A keresőtiltás feloldása is ezzel a kiadással kerül az éles oldalra. A sitemap Search Console-beküldése és az indexelés ellenőrzése külön, kiadás utáni lépés; ez még nem történt meg.
 
-A településoldalak szolgáltatási területet jelölnek, nem helyi telephelyet. A kiszállás, az időpont és a díjak egyeztetéshez kötöttek. A biatorbágyi oldal a meglévő, helyszínnel azonosított projektalbumra mutat; más településre nem rendelünk kitalált referenciát. A későbbi helyi SEO-hoz ténylegesen ott végzett munkák fotóival, műszaki részleteivel és engedélyezett ügyfélértékelésekkel érdemes bővíteni az oldalakat.
+A településoldalak szolgáltatási területet jelölnek, nem helyi telephelyet. A kiszállás, az időpont és a díjak egyeztetéshez kötöttek. A tulajdonos által megerősített hét helyszín saját projektalbumhoz kapcsolódik; más településre nem rendelünk kitalált referenciát. A későbbi helyi SEO-hoz ténylegesen ott végzett munkák fotóival, műszaki részleteivel és engedélyezett ügyfélértékelésekkel érdemes bővíteni az oldalakat.
+
+## Helyi referenciák és főoldali SEO — 2026. október 27.
+
+A tulajdonos helyszínpárosításai a `data/project-locations.json` fájlban szerepelnek: 01 Érd, 02 Budaörs, 03 Százhalombatta, 04 Budapest XXII. kerület, 05 Adony, 06 Biatorbágy, 07 Ráckeresztúr. Az eredeti projektalbum-URL-ek megmaradnak.
+
+A főoldal és a Referenciák oldal címei és látható helyszínhivatkozásai, a hét album szövege és metaadatai, az 55 fotó képleírása és a nagyítás felirata a tényleges helyszínhez kapcsolódik. Az albumok ImageGallery és ImageObject adatai a látható tartalmat írják le, `contentLocation` megadással. Dátumot, utcacímet, ügyfélnevet vagy értékelést nem állítunk a projektekhez.
+
+Hat településoldalon a hozzá tartozó saját referencia, kép és albumhivatkozás szerepel. Budapest XXII. kerülete külön `acs-budapest-22-kerulet.html` oldalt kapott; a főoldali Budapest-választás és a területi áttekintő ezt is eléri. A többi településen az érdi mintareferencia helyszíne kifejezetten Érd. A 295 önálló település száma nem változik, az oldaltérkép 311 oldalt tartalmaz.
+
+Karbantartáskor sorrendben futtatandó:
+
+```sh
+node scripts/generate-projects.mjs
+node scripts/generate-areas.mjs
+node scripts/check-projects.mjs
+node scripts/check-areas.mjs
+```
+
+A projektgenerátor a meglévő HTML-szerkezetet használja, a helyi tartalmat a párosítási adatból frissíti. A képek eredeti leírását a `sceneAlt` mező őrzi. Mindkét generátor ismételt futtatása változásmentes. Az ellenőrzések a pontos hét párosítást, az 55 képet, a kétirányú hivatkozásokat, a közösségi képfájlokat, minden helyi URL-t és a strukturált adatokat vizsgálják.
+
+Böngészőben ellenőrizve: főoldali kápolna-összehasonlítás és képnagyítás, Budaörs saját referenciaoldala, XXII. kerületi album és területi oldal 390 px szélességen, munkafázisszűrés, Escape bezárás, a térkép Budapest-hivatkozása. A vizsgált nézetekben nincs vízszintes túlcsordulás vagy JavaScript-hiba.

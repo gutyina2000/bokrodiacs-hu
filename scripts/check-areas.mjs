@@ -23,7 +23,7 @@ for(const [p,s] of Object.entries(html)){
   try{await fs.access(path.join(root,target));}catch{errors.push(p+': missing '+target);continue;}
   if(fragment&&target.endsWith('.html')&&html[target]&&!html[target].includes('id="'+fragment+'"'))errors.push(p+': missing anchor '+url);
  }
- for(const m of s.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)){
+ for(const m of s.matchAll(/<script type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)){
   try{const graph=JSON.parse(m[1])['@graph'];assert(graph.some(x=>x['@type']==='BreadcrumbList'));}catch(e){errors.push(p+': schema '+e.message);}
  }
  if(p.startsWith('acs-')){
@@ -36,7 +36,7 @@ for(const [p,s] of Object.entries(html)){
 assert.equal(data.towns.length,295);
 assert.equal(data.towns.filter(t=>t.county==='fejer').length,108);
 assert.equal(data.towns.filter(t=>t.county==='pest').length,187);
-assert.equal(pages.filter(p=>p.startsWith('acs-')&&!p.includes('-megye.')).length,295);
+assert.equal(pages.filter(p=>p.startsWith('acs-')&&!p.includes('-megye.')&&p!=='acs-budapest-22-kerulet.html').length,295);
 for(const t of data.towns){
  const file='acs-'+t.slug+'.html';
  assert(html[file]?.includes(t.name),'Missing '+t.name);
@@ -54,7 +54,7 @@ assert(html['acs-gardony.html'].includes('Agárd'));
 assert(!html['acs-agard.html']);
 const base={};
 for(const p of pages.filter(p=>!p.startsWith('acs-')&&p!=='teruletek.html'))base[p]=html[p];
-for(const p of ['assets/app.js','assets/config.js'])base[p]=await read(p);
+for(const p of ['assets/app.js','assets/config.js','assets/projects-data.js','data/project-locations.json'])base[p]=await read(p);
 const rebuilt=buildAreaFiles(base,data);
 for(const [p,s] of Object.entries(rebuilt))if(await read(p)!==s)errors.push('Not deterministic/idempotent: '+p);
 if(errors.length){console.error([...new Set(errors)].join('\n'));process.exit(1);}
