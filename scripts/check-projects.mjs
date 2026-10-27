@@ -21,7 +21,11 @@ for(const [key,location] of Object.entries(expected)){
  assert(!area.includes('helyszíne nincs megjelölve'));
  for(const page of ['index.html','referenciak.html']){
   const article=base[page].match(/<article class="(?:feature|standard)">[\s\S]*?<\/article>/g).find(a=>a.includes('id="bj-'+key+'-mosaic"'));
-  assert(article.includes('href="'+r.areaPage+'"')&&article.includes(r.title),'Home/reference mapping: '+key);
+  if(page==='index.html'){
+   assert(!article.includes('class="project-location"'),'No home location label: '+key);
+   assert.equal(article.match(/<h3>([^<]+)<\/h3>/)[1],r.title.replace(' '+r.locative,''));
+   assert(article.includes('href="'+p.url+'"'),'Home album link: '+key);
+  }else assert(article.includes('href="'+r.areaPage+'"')&&article.includes(r.title),'Reference mapping: '+key);
  }
  const graph=JSON.parse(html.match(/id="project-seo-data">([\s\S]*?)<\/script>/)[1])['@graph'];
  const gallery=graph.find(n=>n['@type']==='ImageGallery');

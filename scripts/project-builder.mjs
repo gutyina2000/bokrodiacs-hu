@@ -40,9 +40,12 @@ for(const file of ['index.html','referenciak.html']){
  html=html.replace(/<article class="(?:feature|standard)">[\s\S]*?<\/article>/g,article=>{
   const r=refs.find(r=>article.includes('id="bj-'+r.key+'-mosaic"'));if(!r)return article;
   article=article.replace(/<p class="project-location">[\s\S]*?<\/p>/g,'');
-  return article.replace(/<h3>[^<]*<\/h3>/,'<h3>'+esc(r.title)+'</h3>'+location(r));
+  const isHome=file==='index.html';
+  const cardTitle=isHome?r.title.replace(' '+r.locative,''):r.title;
+  return article.replace(/<h3>[^<]*<\/h3>/,'<h3>'+esc(cardTitle)+'</h3>'+(isHome?'':location(r)));
  });
  if(file==='index.html'){
+  html=html.replace(/(<section class="section bj-gallery" id="projektek")(?: data-show-location="false")?/, '$1 data-show-location="false"');
   html=metadata(html,'Ács és tetőfedés Fejér, Pest megyében és Budapesten | Bokrodi János','Tetőfedés és ácsmunkák Fejér és Pest megyében, Budapesten. Hét helyszín, 55 saját referenciafotó. Egyeztessen Bokrodi Jánossal: 06 20 804 4133.','assets/bokrodi-hero-poster.webp');
   html=html.replace('Tetőfedés, ácsmunkák, kerti kiülők és fa kocsibeállók. Mondja el az elképzelését, és kérjen átlátható, személyre szabott kalkulációt.','Tetőfedés és ácsmunkák Fejér és Pest megyében, valamint Budapesten. Kerti kiülők és fa kocsibeállók készítéséről is egyeztethet Bokrodi Jánossal.');
  }else{
@@ -51,6 +54,7 @@ for(const file of ['index.html','referenciak.html']){
  const list={'@type':'ItemList','@id':origin+'/'+(file==='index.html'?'':file)+'#referenciak',name:'Ács- és tetőfedő referenciák',numberOfItems:7,itemListElement:refs.map((r,i)=>({'@type':'ListItem',position:i+1,item:{'@type':'ImageGallery','@id':origin+'/'+projects[r.key].url+'#album',url:origin+'/'+projects[r.key].url,name:r.title,contentLocation:{'@type':'Place',name:r.location}}}))};
  html=schema(html,[org,{'@type':file==='index.html'?'WebPage':'CollectionPage','@id':origin+'/'+(file==='index.html'?'':file)+'#webpage',url:origin+'/'+(file==='index.html'?'':file),name:file==='index.html'?'Bokrodi János – ácsmunkák és tetőfedés':'Bokrodi János referenciái',inLanguage:'hu',mainEntity:{'@id':list['@id']}},crumbs(file,file==='index.html'?[['Főoldal','']]:[['Főoldal',''],['Referenciák',file]]),list]);
  out[file]=photosAndVersions(html);
+ if(file==='index.html')out[file]=out[file].replace('assets/projects.js?v=20261027-project-locations','assets/projects.js?v=20261027-home-projects');
 }
 for(const r of refs){
  const p=projects[r.key],file=p.url,hero=p.photos.find(x=>x.id===r.heroPhoto);

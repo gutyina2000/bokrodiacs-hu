@@ -48,7 +48,7 @@ A településoldalak szolgáltatási területet jelölnek, nem helyi telephelyet
 
 A tulajdonos helyszínpárosításai a `data/project-locations.json` fájlban szerepelnek: 01 Érd, 02 Budaörs, 03 Százhalombatta, 04 Budapest XXII. kerület, 05 Adony, 06 Biatorbágy, 07 Ráckeresztúr. Az eredeti projektalbum-URL-ek megmaradnak.
 
-A főoldal és a Referenciák oldal címei és látható helyszínhivatkozásai, a hét album szövege és metaadatai, az 55 fotó képleírása és a nagyítás felirata a tényleges helyszínhez kapcsolódik. Az albumok ImageGallery és ImageObject adatai a látható tartalmat írják le, `contentLocation` megadással. Dátumot, utcacímet, ügyfélnevet vagy értékelést nem állítunk a projektekhez.
+A főoldali projektkártyák címei és a főoldali képnagyítás feliratai településnév nélkül jelennek meg. A Referenciák oldal helyszínhivatkozásai, a hét album szövege és metaadatai, az 55 fotó képleírása és az albumoldali nagyítás felirata a tényleges helyszínhez kapcsolódik. A főoldali SEO-adatok és a területi térkép változatlanul megmaradnak. Az albumok ImageGallery és ImageObject adatai a látható tartalmat írják le, `contentLocation` megadással. Dátumot, utcacímet, ügyfélnevet vagy értékelést nem állítunk a projektekhez.
 
 Hat településoldalon a hozzá tartozó saját referencia, kép és albumhivatkozás szerepel. Budapest XXII. kerülete külön `acs-budapest-22-kerulet.html` oldalt kapott; a főoldali Budapest-választás és a területi áttekintő ezt is eléri. A többi településen az érdi mintareferencia helyszíne kifejezetten Érd. A 295 önálló település száma nem változik, az oldaltérkép 311 oldalt tartalmaz.
 
@@ -64,3 +64,7 @@ node scripts/check-areas.mjs
 A projektgenerátor a meglévő HTML-szerkezetet használja, a helyi tartalmat a párosítási adatból frissíti. A képek eredeti leírását a `sceneAlt` mező őrzi. Mindkét generátor ismételt futtatása változásmentes. Az ellenőrzések a pontos hét párosítást, az 55 képet, a kétirányú hivatkozásokat, a közösségi képfájlokat, minden helyi URL-t és a strukturált adatokat vizsgálják.
 
 Böngészőben ellenőrizve: főoldali kápolna-összehasonlítás és képnagyítás, Budaörs saját referenciaoldala, XXII. kerületi album és területi oldal 390 px szélességen, munkafázisszűrés, Escape bezárás, a térkép Budapest-hivatkozása. A vizsgált nézetekben nincs vízszintes túlcsordulás vagy JavaScript-hiba.
+
+## Google Search Console előkészítés
+
+A https://bokrodiacs.hu/ URL-előtagú tulajdon a tulajdonos Google-fiókjában létrejött, ellenőrzése függőben van. A Google által kiadott ellenőrző metacímke a főoldal head elemében szerepel. A kiadás után a Search Console HTML-címkés ellenőrzését kell befejezni, majd a https://bokrodiacs.hu/sitemap.xml oldaltérképet beküldeni. A Google-beküldés és az indexelés még nem történt meg.
