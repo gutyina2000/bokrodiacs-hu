@@ -57,4 +57,9 @@ body{overflow-x:clip}
 .hero-quote-card input:not([type=checkbox]){font-size:16px}
 .hero-motion{right:6%;bottom:31px}
 }
+/* Phone framing is independent of the tall callback form. */
+@media(max-width:600px){
+.hero--video .hero-media{bottom:auto;height:clamp(400px,110vw,600px);-webkit-mask-image:linear-gradient(to bottom,#000 72%,transparent 100%);mask-image:linear-gradient(to bottom,#000 72%,transparent 100%)}
+.hero--video .hero-media img,.hero--video .hero-media video{object-position:50% center}
+}
 @media(prefers-reduced-motion:reduce){.hero--video .hero-media video{display:none}.hero--video .hero-media video{transition:none}}
