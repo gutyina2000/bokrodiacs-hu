@@ -1,6 +1,6 @@
 # Bokrodi János ács weboldala
 
-A bokrodiacs.hu statikus weboldala. Jelenleg jelölt bemutató, négy szolgáltatáskörrel és 16 helyszínnel. Az űrlap helyi előnézetet készít; üzenetet nem küld. A keresőindexelés a végleges vállalkozói adatok és elérhetőségek megadásáig tiltva marad.
+A bokrodiacs.hu közzétett statikus weboldala, négy szolgáltatáskörrel, 16 helyszínnel és saját munkafotós projektalbumokkal. Az online üzenetküldés még nincs bekötve; a küldésgombok le vannak tiltva, az űrlapok nem továbbítanak vagy tárolnak adatot. A keresőindexelés a vállalkozói adatok és elérhetőségek megadásáig tiltva marad.
 
 Publikálás: GitHub Pages, main ág, gyökérmappa.
 

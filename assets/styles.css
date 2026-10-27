@@ -20,3 +20,5 @@
 @media(max-width:760px){.service-grid{grid-template-columns:1fr;gap:22px}.service-card h3{font-size:27px}.detail-guide{grid-column:1/-1}.contact-coverage h2{font-size:32px}}
 
 @media(min-width:1101px){.service-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}.service-photo{height:auto;aspect-ratio:3/2}.service-card-content{padding:23px 20px 25px}.service-card .service-card-content h3{font-size:25px;min-height:65px}.service-card .service-card-content p{min-height:64px}}
+
+form button[type="submit"]:disabled{opacity:.65;cursor:not-allowed;transform:none}
