@@ -1,11 +1,11 @@
 .trust-stats{position:relative;isolation:isolate;overflow:hidden;padding:62px 40px 66px;background:#172b24;color:#fff8e9;border-block:1px solid #be956c55}
-.trust-stats__media{position:absolute;z-index:-2;inset:0;pointer-events:none;background:radial-gradient(ellipse at 50% 110%,#75603c66,transparent 65%)}
+.trust-stats__media{position:absolute;z-index:0;inset:0;pointer-events:none;background:#172b24 url('trust-timber-poster.webp') center/cover no-repeat}
 .trust-stats__video{width:100%;height:100%;object-fit:cover;opacity:.62}
-.trust-stats::before{content:"";position:absolute;z-index:-1;inset:0;background:linear-gradient(90deg,#10251dcc,#172b2445 50%,#10251dcc);pointer-events:none}
-.trust-stats__inner{max-width:1200px;margin:0 auto}
+.trust-stats__media::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#10251dcc,#172b2445 50%,#10251dcc);pointer-events:none}
+.trust-stats__inner{position:relative;z-index:1;max-width:1200px;margin:0 auto}
 .trust-stats__eyebrow{text-align:center;color:#dcc2a0;font-size:11px;letter-spacing:.2em;margin:0 0 28px}
 .trust-stats__grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;margin:0}
-.trust-stats__card{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:0;padding:30px 18px 28px;overflow:hidden;border:1px solid #d6b47c66;border-radius:12px;background:linear-gradient(145deg,#30483cbb,#162a22dc);box-shadow:0 14px 30px #07160f33;text-align:center}
+.trust-stats__card{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:0;padding:30px 18px 28px;overflow:hidden;border:1px solid #d6b47c66;border-radius:12px;background:#1d3028ed;box-shadow:0 14px 30px #07160f33;text-align:center}
 .trust-stats__card::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(115deg,transparent 30%,#f5d4a222 48%,transparent 65%);transform:translateX(-120%)}
 .trust-stats__card.is-counting::after{animation:trust-card-shine 2.2s ease-out both}
 .trust-stats__icon{order:0;display:grid;place-items:center;width:54px;height:54px;margin-bottom:18px;color:#e9c68c;border:1px solid #d6b47c55;border-radius:50%;background:#e8c5870a}

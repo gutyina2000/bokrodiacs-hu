@@ -43,6 +43,8 @@
       video.pause();
       return;
     }
+    // The decorative Higgsfield clip plays once; keep its final frame.
+    if (video.ended) return;
     if (!video.getAttribute('src')) video.src = video.dataset.src;
     video.muted = true;
     const play = video.play();
