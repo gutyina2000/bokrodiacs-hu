@@ -1,0 +1,38 @@
+.work-carousel{--card-width:232px;--card-gap:22px;background:#eee8dd;color:#263b32;padding:52px 0 38px;overflow:hidden}
+.work-carousel *{box-sizing:border-box}
+.work-carousel [hidden]{display:none!important}
+.work-carousel__heading{max-width:1280px;margin:0 auto;padding:0 40px;display:flex;align-items:flex-end;justify-content:space-between;gap:24px}
+.work-carousel .eyebrow{font-size:11px;letter-spacing:.16em;color:#856139;margin:0 0 10px}
+.work-carousel h2{font:400 clamp(29px,3.3vw,42px)/1.15 Georgia,serif;margin:0 0 10px}
+.work-carousel__intro{font-size:14px;line-height:1.65;color:#62685d;margin:0;max-width:480px}
+.work-carousel__controls{display:flex;align-items:center;gap:7px;flex-shrink:0}
+.work-carousel button{font:inherit;color:inherit;cursor:pointer;touch-action:manipulation}
+.work-carousel__control{display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;padding:10px 12px;border:1px solid #b9bcae;border-radius:6px;background:#fffdf8;font-size:14px!important}
+.work-carousel__control:hover{border-color:#856139;background:#f8f3e9}
+.work-carousel__control[data-work-pause]{min-width:132px}
+.work-carousel :is(a,button):focus-visible{outline:3px solid #956d37;outline-offset:3px}
+.work-carousel__viewport{max-width:1440px;margin:12px auto 0;padding:24px 30px 38px;overflow-x:auto;overflow-y:hidden;perspective:1100px;touch-action:auto}
+.work-carousel__track{display:flex;gap:var(--card-gap);margin:0;padding:0;list-style:none}
+.work-carousel__card{flex:0 0 var(--card-width);width:var(--card-width);margin:0}
+.work-carousel__link{display:block;background:#fffdf8;border:1px solid #d4c6b0;border-radius:9px;padding:7px 7px 0;overflow:hidden;text-decoration:none;color:inherit;box-shadow:0 12px 22px #45371f16}
+.work-carousel__photo{display:flex;align-items:center;justify-content:center;width:100%;aspect-ratio:4/3;border-radius:5px;overflow:hidden;background:#e5ded1}
+.work-carousel__photo img{display:block;width:100%;height:100%;object-fit:cover}
+.work-carousel__card[data-portrait] img{object-fit:contain}
+.work-carousel__caption{display:flex;align-items:center;min-height:44px;padding:7px 4px;font-size:12px;line-height:1.35}
+.work-carousel.is-ready .work-carousel__viewport{touch-action:pan-y;position:relative;overflow:hidden;padding-inline:0;height:280px;mask-image:linear-gradient(90deg,transparent,#000 3%,#000 97%,transparent)}
+.work-carousel.is-ready .work-carousel__track{display:block;position:relative;height:100%;transform-style:preserve-3d}
+.work-carousel.is-ready .work-carousel__card{position:absolute;left:0;top:0;transform-origin:center;will-change:transform}
+.work-carousel__hint{max-width:1280px;margin:0 auto;padding:0 40px;font-size:11px;letter-spacing:.03em;color:#686b61}
+.work-carousel__sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+.work-carousel .work-carousel__dialog{position:fixed;inset:0;width:min(1060px,calc(100% - 24px));max-width:1060px;max-height:calc(100dvh - 24px);margin:auto;padding:18px;border:0;border-radius:10px;background:#fffdf8;color:#263b32;overflow:auto}
+.work-carousel__dialog::backdrop{background:#102319df}
+.work-carousel__viewer-top,.work-carousel__viewer-bottom{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.work-carousel__viewer-top{margin-bottom:14px;font-size:12px;letter-spacing:.1em}
+.work-carousel .work-carousel__dialog .close-dialog{position:static;width:auto;height:auto;min-height:44px;padding:8px 13px;border:1px solid #c5cabc;border-radius:5px;background:transparent;font-size:14px}
+.work-carousel__frame{min-height:min(52dvh,400px);display:flex;align-items:center;justify-content:center;background:#eae6dd;border-radius:6px;overflow:hidden}
+.work-carousel__frame img{display:block;width:auto;height:auto;max-width:100%;max-height:65dvh;object-fit:contain}
+.work-carousel__viewer-bottom{margin-top:14px}
+.work-carousel__viewer-bottom p{margin:0;font-size:14px;line-height:1.5}
+.work-carousel__count{display:block;font-size:11px;color:#687266;margin-top:3px}
+@media(max-width:760px){.work-carousel{--card-width:202px;--card-gap:16px;padding-top:36px;padding-bottom:28px}.work-carousel__heading{padding:0 24px;align-items:flex-start;flex-direction:column;gap:18px}.work-carousel__intro{font-size:13px}.work-carousel__hint{padding:0 24px}.work-carousel.is-ready .work-carousel__viewport{height:260px}.work-carousel__caption{font-size:11px}.work-carousel__controls{gap:8px}}
+@media(prefers-reduced-motion:reduce){.work-carousel.is-ready .work-carousel__card{will-change:auto}}
