@@ -35,8 +35,8 @@ if(list){
   document.querySelector('#area-title').textContent=names[id]||'Hol valósulna meg az elképzelése?';
   document.querySelector('#area-description').textContent=id==='budapest'?'Budapesti munkánál a kerületet és a pontos helyszínt is egyeztetjük.':'Nyissa meg a település saját oldalát. A kiszállás és a vállalási időpont egyeztetéshez kötött.';
   const link=document.querySelector('#area-quote');
-  link.href=id==='budapest'?'kapcsolat.html?terulet=budapest&telepules=Budapest#ajanlatkeres':id?'acs-'+id+'-megye.html':'teruletek.html';
-  link.textContent=id==='budapest'?'Budapesti egyeztetés ↗':id?names[id]+' összes települése ↗':'Összes megye és település ↗';
+  link.href=id==='budapest'?'acs-budapest-22-kerulet.html':id?'acs-'+id+'-megye.html':'teruletek.html';
+  link.textContent=id==='budapest'?'Budapest XXII. kerületi referencia ↗':id?names[id]+' összes települése ↗':'Összes megye és település ↗';
   list.scrollTop=0;filter();
  };
  document.querySelectorAll('[data-region]').forEach(b=>{

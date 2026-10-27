@@ -21,7 +21,7 @@
   image.width = p.width;
   image.height = p.height;
   image.decoding = 'async';
-  caption.textContent = p.caption;
+  caption.textContent = root.dataset.showLocation === 'false' ? p.caption : projects[active].location + ' · ' + p.caption;
   counter.textContent = `${items().findIndex(x => x.id === id) + 1} / ${items().length} · ${p.phase}`;
   albumLink.href = projects[active].url;
   albumLink.hidden = !!root.dataset.album;
@@ -50,7 +50,7 @@
    const main = root.querySelector('#bj-chapel-mosaic .shot');
    main.dataset.photo = p.id;
    main.href = projects.chapel.url + '#foto-' + p.id;
-   main.setAttribute('aria-label', p.caption + ' – nagyítás');
+   main.setAttribute('aria-label', projects.chapel.location + ' · ' + p.caption + ' – nagyítás');
    const img = main.querySelector('img');
    img.src = p.src; img.srcset = p.srcset; img.alt = p.alt; img.width = p.width; img.height = p.height;
    main.querySelector('.stamp').textContent = done ? 'Elkészült' : 'Munka közben';

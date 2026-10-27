@@ -1,0 +1,125 @@
+{
+  "confirmedOn": "2026-10-27",
+  "source": "A tulajdonos által megadott projekt–helyszín párosítás.",
+  "projects": [
+    {
+      "key": "house",
+      "number": 1,
+      "location": "Érd",
+      "locative": "Érden",
+      "county": "pest",
+      "areaPage": "acs-erd.html",
+      "title": "Családi ház tetőépítése Érden",
+      "description": "Családi ház tetőépítése Érden: fa tetőszerkezet, fóliázás, lécezés és cserépfedés. Bokrodi János munkája 12 saját fotón.",
+      "heroPhoto": "p06",
+      "summary": "Az érdi családi ház tetőépítését a faanyag helyszínre érkezésétől a cserépfedés kialakításáig követhetjük végig. A fotók a gerendák és a szarufák összeállítását, a tetőfólia és a lécezés elhelyezését, majd a tetősíkok cserepezését mutatják.",
+      "details": [
+        "Fa tetőszerkezet és szarufák szerelése",
+        "Tetőfólia és lécezés elhelyezése",
+        "Kontyolt tető cserépfedésének kialakítása"
+      ]
+    },
+    {
+      "key": "chapel",
+      "number": 2,
+      "location": "Budaörs",
+      "locative": "Budaörsön",
+      "county": "pest",
+      "areaPage": "acs-budaors.html",
+      "title": "Kápolna tető- és toronyfelújítása Budaörsön",
+      "description": "Kápolna tető- és toronyfelújítása Budaörsön: faszerkezet, főtető és toronyfedés. Bokrodi János referenciája 8 saját munkafotóval.",
+      "heroPhoto": "c08",
+      "summary": "A budaörsi kápolna felújítását nyolc munkafotó mutatja be. A főtető faszerkezetének megújítása és cserepezése mellett a torony új fa váza és fedése is látható. A képsor a bontott, építés közbeni állapotokat és a megújult épületet egyaránt bemutatja.",
+      "details": [
+        "A főtető fa szerkezetének felújítása",
+        "Új toronyváz kialakítása",
+        "A kápolnatető és a torony cserepezése"
+      ]
+    },
+    {
+      "key": "renovation",
+      "number": 3,
+      "location": "Százhalombatta",
+      "locative": "Százhalombattán",
+      "county": "pest",
+      "areaPage": "acs-szazhalombatta.html",
+      "title": "Tetőfelújítás tetőablakokkal Százhalombattán",
+      "description": "Tetőfelújítás Százhalombattán új faelemekkel és tetőablakokkal. A szerkezetépítéstől a cserépfedésig, Bokrodi János 12 saját fotóján.",
+      "heroPhoto": "r09",
+      "summary": "A százhalombattai tetőfelújítás képein az új faelemek és szerkezeti kapcsolatok, a fóliázott és lécezett tetősíkok, majd a vörös cserépfedés látható. A kész fedésbe illeszkedő tetőablakokat és a csatlakozó tetősíkok részleteit a projekt több nézetből is bemutatja.",
+      "details": [
+        "Fa tetőszerkezeti elemek és kapcsolatok",
+        "A fedés előkészítése fóliázással és lécezéssel",
+        "Cserépfedés és tetőablakok körüli részletek"
+      ]
+    },
+    {
+      "key": "eaves",
+      "number": 4,
+      "location": "Budapest XXII. kerület",
+      "locative": "Budapest XXII. kerületében",
+      "county": "budapest",
+      "areaPage": "acs-budapest-22-kerulet.html",
+      "title": "Tetőfedés és ereszaljburkolat Budapest XXII. kerületében",
+      "description": "Tetőfedés és fa ereszaljburkolat Budapest XXII. kerületében. Cserepezés és burkolatszerelés Bokrodi János 7 saját munkafotóján.",
+      "heroPhoto": "e03",
+      "summary": "A Budapest XXII. kerületében végzett munkáról a tető cserepezését és az eresz alatti faburkolat szerelését bemutató fotók készültek. Az albumon az állványról végzett burkolás, az ereszcsatorna melletti részletek és a munkaterület környezete is megtekinthető.",
+      "details": [
+        "A tetősíkok cserepezése",
+        "Fa ereszaljburkolat felszerelése",
+        "Burkolati részletek az ereszcsatorna alatt"
+      ]
+    },
+    {
+      "key": "porch",
+      "number": 5,
+      "location": "Adony",
+      "locative": "Adonyban",
+      "county": "fejer",
+      "areaPage": "acs-adony.html",
+      "title": "Lemezfedés és fa előtető készítése Adonyban",
+      "description": "Fa előtető és lemezfedés Adonyban: oszlopok, támaszok, fóliázás és tetőburkolat. Bokrodi János referenciája 3 saját munkafotóval.",
+      "heroPhoto": "t03",
+      "summary": "Az adonyi projektben a fa előtető szerkezete és a ház lemezfedése látható. A három fotó az oszlopokat és ferde támaszokat, a fóliázott és lécezett tetősíkokat, valamint a házra és az előtetőre felkerülő barna lemezburkolatot mutatja meg.",
+      "details": [
+        "Faoszlopos előtető és ferde támaszok",
+        "Fóliázás és lécezés a fedés előtt",
+        "Lemezfedés a házon és az előtetőn"
+      ]
+    },
+    {
+      "key": "biatorbagy",
+      "number": 6,
+      "location": "Biatorbágy",
+      "locative": "Biatorbágyon",
+      "county": "pest",
+      "areaPage": "acs-biatorbagy.html",
+      "title": "Tetőépítés Biatorbágyon",
+      "description": "Tetőépítés Biatorbágyon: fa tartószerkezet, látszó ereszrészletek és cserépfedés. Bokrodi János munkája 5 saját fotón.",
+      "heroPhoto": "b02",
+      "summary": "A biatorbágyi tetőépítés fotóin a fa tartószerkezet gerendái, támaszai és csavarozott kapcsolatai után a látszó ereszdeszkázat és a tetőfedés részletei következnek. Az album az épület több tetősíkját és a kőburkolatú homlokzat feletti ereszkialakítást is bemutatja.",
+      "details": [
+        "Fa tartószerkezet és csavarozott kapcsolatok",
+        "Látszó fa ereszkialakítás",
+        "Ereszcsatorna és cserépfedés részletei"
+      ]
+    },
+    {
+      "key": "timber",
+      "number": 7,
+      "location": "Ráckeresztúr",
+      "locative": "Ráckeresztúron",
+      "county": "fejer",
+      "areaPage": "acs-rackeresztur.html",
+      "title": "Faszerkezetes épület készítése Ráckeresztúron",
+      "description": "Faszerkezetes épület Ráckeresztúron: oszlopok, falváz, tetőszerkezet és külső faburkolat. Bokrodi János 8 saját munkafotója.",
+      "heroPhoto": "w07",
+      "summary": "A ráckeresztúri faszerkezetes épület képsora az oszlopoktól és a falváz összeállításától a külső deszkaburkolat szereléséig vezet. A belső szerkezet, az ajtó- és ablaknyílások, a rögzítések és a homlokzati faburkolat részletei is láthatók.",
+      "details": [
+        "Fa oszlopok, támaszok és falváz",
+        "Nyíláskeretek és belső szerkezeti részletek",
+        "Külső deszkaburkolat felszerelése"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {buildProjectFiles} from './project-builder.mjs';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const read=p=>fs.readFile(path.join(root,p),'utf8'),base={};
+const locations=JSON.parse(await read('data/project-locations.json'));
+for(const p of await fs.readdir(root))if(p.endsWith('.html')&&!p.startsWith('acs-')&&p!=='teruletek.html')base[p]=await read(p);
+base['assets/projects-data.js']=await read('assets/projects-data.js');
+for(const [p,content] of Object.entries(buildProjectFiles(base,locations)))await fs.writeFile(path.join(root,p),content);
+console.log('Updated 7 project locations, albums, photo descriptions and homepage links.');
