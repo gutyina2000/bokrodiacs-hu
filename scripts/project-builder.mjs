@@ -1,3 +1,4 @@
+import {buildAdditionalProjects} from './additional-projects.mjs';
 export function buildProjectFiles(base,locations){
 const out={},origin='https://bokrodiacs.hu';
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -33,7 +34,7 @@ function photosAndVersions(html){
   const src=tag.match(/\ssrc="([^"]+)"/)?.[1],alt=photoAlt.get(src);
   return alt?tag.replace(/\salt="[^"]*"/,' alt="'+esc(alt)+'"'):tag;
  });
- return html.replace(/assets\/(projects(?:-data)?\.(?:js|css))\?[^" ]+/g,'assets/$1?v=20261027-project-locations');
+ return html.replace(/assets\/(projects(?:-data)?\.(?:js|css))\?[^" ]+/g,'assets/$1?v=20261029-gallery');
 }
 for(const file of ['index.html','referenciak.html']){
  let html=base[file];
@@ -46,15 +47,15 @@ for(const file of ['index.html','referenciak.html']){
  });
  if(file==='index.html'){
   html=html.replace(/(<section class="section bj-gallery" id="projektek")(?: data-show-location="false")?/, '$1 data-show-location="false"');
-  html=metadata(html,'Ács és tetőfedés Fejér, Pest megyében és Budapesten | Bokrodi János','Tetőfedés és ácsmunkák Fejér és Pest megyében, Budapesten. Hét helyszín, 55 saját referenciafotó. Egyeztessen Bokrodi Jánossal: 06 20 804 4133.','assets/bokrodi-hero-poster.webp');
+  html=metadata(html,'Ács és tetőfedés Fejér, Pest megyében és Budapesten | Bokrodi János','Tetőfedés és ácsmunkák Fejér és Pest megyében, Budapesten. Saját referenciafotók és projektalbumok. Egyeztessen Bokrodi Jánossal: 06 20 804 4133.','assets/bokrodi-hero-poster.webp');
   html=html.replace('Tetőfedés, ácsmunkák, kerti kiülők és fa kocsibeállók. Mondja el az elképzelését, és kérjen átlátható, személyre szabott kalkulációt.','Tetőfedés és ácsmunkák Fejér és Pest megyében, valamint Budapesten. Kerti kiülők és fa kocsibeállók készítéséről is egyeztethet Bokrodi Jánossal.');
  }else{
-  html=metadata(html,'Ács- és tetőfedő referenciák – 7 helyszín, 55 fotó | Bokrodi János','Saját ács- és tetőfedő munkák Érden, Budaörsön, Százhalombattán, Budapest XXII. kerületében, Adonyban, Biatorbágyon és Ráckeresztúron.',projects.chapel.photos.find(p=>p.id==='c08').full);
+  html=metadata(html,'Ács- és tetőfedő referenciák – 12 projekt, 74 fotó | Bokrodi János','Saját ács- és tetőfedő munkák Érden, Budaörsön, Százhalombattán, Budapest XXII. kerületében, Adonyban, Biatorbágyon és Ráckeresztúron.',projects.chapel.photos.find(p=>p.id==='c08').full);
  }
- const list={'@type':'ItemList','@id':origin+'/'+(file==='index.html'?'':file)+'#referenciak',name:'Ács- és tetőfedő referenciák',numberOfItems:7,itemListElement:refs.map((r,i)=>({'@type':'ListItem',position:i+1,item:{'@type':'ImageGallery','@id':origin+'/'+projects[r.key].url+'#album',url:origin+'/'+projects[r.key].url,name:r.title,contentLocation:{'@type':'Place',name:r.location}}}))};
+ const list={'@type':'ItemList','@id':origin+'/'+(file==='index.html'?'':file)+'#referenciak',name:'Ács- és tetőfedő referenciák',numberOfItems:Object.keys(projects).length,itemListElement:Object.values(projects).map((p,i)=>({'@type':'ListItem',position:i+1,item:{'@type':'ImageGallery','@id':origin+'/'+p.url+'#album',url:origin+'/'+p.url,name:p.title,...(p.location?{contentLocation:{'@type':'Place',name:p.location}}:{})}}))};
  html=schema(html,[org,{'@type':file==='index.html'?'WebPage':'CollectionPage','@id':origin+'/'+(file==='index.html'?'':file)+'#webpage',url:origin+'/'+(file==='index.html'?'':file),name:file==='index.html'?'Bokrodi János – ácsmunkák és tetőfedés':'Bokrodi János referenciái',inLanguage:'hu',mainEntity:{'@id':list['@id']}},crumbs(file,file==='index.html'?[['Főoldal','']]:[['Főoldal',''],['Referenciák',file]]),list]);
  out[file]=photosAndVersions(html);
- if(file==='index.html')out[file]=out[file].replace('assets/projects.js?v=20261027-project-locations','assets/projects.js?v=20261027-home-projects');
+ if(file==='index.html')out[file]=out[file].replace('assets/projects.js?v=20261029-gallery','assets/projects.js?v=20261029-gallery');
 }
 for(const r of refs){
  const p=projects[r.key],file=p.url,hero=p.photos.find(x=>x.id===r.heroPhoto);
@@ -69,5 +70,5 @@ for(const r of refs){
  html=schema(html,[org,crumbs(file,[['Főoldal',''],['Referenciák','referenciak.html'],[r.title,file]]),gallery,...images]);
  out[file]=photosAndVersions(html);
 }
-return out;
+return Object.fromEntries(Object.entries({...out,...buildAdditionalProjects({...base,...out},projects)}).map(([file,content])=>[file,content.replace(/\r\n/g,'\n')]));
 }

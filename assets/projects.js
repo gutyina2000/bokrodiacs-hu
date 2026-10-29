@@ -21,7 +21,7 @@
   image.width = p.width;
   image.height = p.height;
   image.decoding = 'async';
-  caption.textContent = root.dataset.showLocation === 'false' ? p.caption : projects[active].location + ' · ' + p.caption;
+  caption.textContent = root.dataset.showLocation === 'false' || !projects[active].location ? p.caption : projects[active].location + ' · ' + p.caption;
   counter.textContent = `${items().findIndex(x => x.id === id) + 1} / ${items().length} · ${p.phase}`;
   albumLink.href = projects[active].url;
   albumLink.hidden = !!root.dataset.album;

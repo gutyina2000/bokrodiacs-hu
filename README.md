@@ -68,3 +68,12 @@ Böngészőben ellenőrizve: főoldali kápolna-összehasonlítás és képnagy�
 ## Google Search Console előkészítés
 
 A https://bokrodiacs.hu/ URL-előtagú tulajdon a tulajdonos Google-fiókjában létrejött, ellenőrzése függőben van. A Google által kiadott ellenőrző metacímke a főoldal head elemében szerepel. A kiadás után a Search Console HTML-címkés ellenőrzését kell befejezni, majd a https://bokrodiacs.hu/sitemap.xml oldaltérképet beküldeni. A Google-beküldés és az indexelés még nem történt meg.
+
+
+## Új projektalbumok — 2026. október 29.
+
+19 új saját munkafotó öt külön projektben, a meglévő hét projekt elé rendezve: fa kocsibeálló (6), zöld trapézlemezes tető (7), piros tető és kéményburkolat (4), kerti faszerkezet (1), padlástéri tetőszerkezet (1). A főoldalon a három többképes album saját körbefutó, megállítható és nagyítható képsort kapott; az egyképes projektek külön kártyán szerepelnek. A Referenciák oldalon és az albumokban statikus elrendezés marad.
+
+Az új projektek helyszíne nincs megadva, ezért település nincs hozzárendelve. Az adatokat az `assets/projects-data.js`, a forrásfotók párosítását a `data/gallery-upload-map.json`, a hozzáadott blokkokat és albumokat a `scripts/additional-projects.mjs` kezeli. A meglévő `generate-projects.mjs` ezt is meghívja. Összesen 12 projekt és 74 albumfotó szerepel; a külön Munka közben képsor változatlan tartalommal megmarad.
+
+Ellenőrzés: projektgenerálás ismételhetősége, helyi hivatkozások és képfájlok, strukturált adatok és 316 oldalas sitemap. A böngészős vizuális ellenőrzést az előnézeti böngésző időtúllépése megakadályozta.

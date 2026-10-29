@@ -1,7 +1,7 @@
 (() => {
   'use strict';
-  const root = document.querySelector('[data-work-carousel]');
-  if (!root) return;
+  document.querySelectorAll('[data-work-carousel]').forEach(initCarousel);
+  function initCarousel(root) {
   const viewport = root.querySelector('.work-carousel__viewport');
   const cards = [...root.querySelectorAll('.work-carousel__card')];
   const links = cards.map(card => card.querySelector('a'));
@@ -36,9 +36,11 @@
   }
   function measure() {
     const oldStep = step;
-    const nextWidth = viewport.clientWidth;
     const nextCardWidth = cards[0].offsetWidth;
     const gap = parseFloat(getComputedStyle(root).getPropertyValue('--card-gap'));
+    // Leave one card beyond the viewport for a seamless wrap, including short albums.
+    if (cards.length > 1 && Number.isFinite(gap)) viewport.style.maxWidth = `${Math.min(1440, (cards.length - 1) * (nextCardWidth + gap))}px`;
+    const nextWidth = viewport.clientWidth;
     // Ignore a transient hidden or unstyled layout rather than poisoning the
     // circular position with NaN during a stylesheet/viewport change.
     if (!nextWidth || !nextCardWidth || !Number.isFinite(gap)) return;
@@ -159,8 +161,10 @@
   });
   dialog.addEventListener('close', () => {
     large.removeAttribute('src');
+    document.body.classList.remove('modal-open');
     if (returnLink) returnLink.focus({preventScroll:true});
     sync();
   });
   sync();
+  }
 })();

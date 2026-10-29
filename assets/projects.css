@@ -101,3 +101,20 @@
 .bj-gallery .project-breadcrumb a{display:inline-flex;align-items:center;min-height:44px;text-underline-offset:4px}
 .bj-gallery .project-breadcrumb span[aria-current]{font-weight:600}
 @media(max-width:600px){.bj-gallery .project-details{padding:20px 16px}.bj-gallery .project-details h2{font-size:23px}}
+
+/* Additional albums use the established carousel only on the homepage. */
+.bj-gallery .project-carousel{--card-width:300px;--card-gap:22px;border:1px solid var(--line);border-radius:12px;margin:0 0 28px;padding:26px 0 20px;background:var(--feature)}
+.bj-gallery .project-carousel .work-carousel__heading{padding:0 24px;align-items:flex-start}
+.bj-gallery .project-carousel h3{font-size:clamp(23px,2.7vw,32px)}
+.bj-gallery .project-carousel .work-carousel__intro{font-size:14px;margin:0}
+.bj-gallery .project-carousel .work-carousel__photo img{height:100%;object-fit:cover}
+.bj-gallery .project-carousel [data-portrait] img{object-fit:contain}
+.bj-gallery .project-carousel.is-ready .work-carousel__viewport{height:335px}
+.bj-gallery .project-carousel .work-carousel__caption{min-height:50px;font-size:13px}
+.bj-gallery .project-carousel__footer{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:0 24px;font-size:12px;color:var(--soft)}
+.bj-gallery .additional-projects,.bj-gallery .additional-single-projects{margin-bottom:38px}
+.bj-gallery .standard-mosaic.single-shot{display:block}
+.bj-gallery .single-shot img{object-fit:contain;background:var(--feature)}
+.bj-gallery .project-carousel .work-carousel__frame img{width:auto;height:auto;max-width:100%;max-height:65dvh;object-fit:contain}
+@media(max-width:1100px){.bj-gallery .project-carousel .work-carousel__heading{flex-direction:column;gap:16px}}
+@media(max-width:760px){.bj-gallery .project-carousel{--card-width:250px;--card-gap:16px}.bj-gallery .project-carousel .work-carousel__heading{padding:0 16px}.bj-gallery .project-carousel.is-ready .work-carousel__viewport{height:295px}.bj-gallery .project-carousel__footer{padding:0 16px;align-items:flex-start;flex-direction:column}.bj-gallery .project-carousel .work-carousel__controls{gap:4px}.bj-gallery .project-carousel [data-work-pause]{min-width:116px;padding-inline:8px}}

@@ -1,4 +1,258 @@
 window.BOKRODI_PROJECTS = {
+  "carport": {
+    "title": "Fa kocsibeálló építése",
+    "kicker": "Projekt 08",
+    "url": "projekt-fa-kocsibeallo-epitese.html",
+    "description": "A tartóoszlopoktól a deszkázott tetőig: egy fa kocsibeálló készítésének részletei.",
+    "galleryAddition": true,
+    "photos": [
+      {
+        "id": "carport01",
+        "phase": "Faszerkezet",
+        "caption": "A deszkázott kocsibeálló teljes nézete",
+        "alt": "Fa kocsibeálló oszlopokkal, ferde támaszokkal és deszkázott tetővel.",
+        "src": "assets/projektek/fa-kocsibeallo-epitese-01-400.webp",
+        "width": 2048,
+        "height": 923,
+        "full": "assets/projektek/fa-kocsibeallo-epitese-01-1600.webp",
+        "srcset": "assets/projektek/fa-kocsibeallo-epitese-01-400.webp 400w, assets/projektek/fa-kocsibeallo-epitese-01-800.webp 800w, assets/projektek/fa-kocsibeallo-epitese-01-1600.webp 1600w"
+      },
+      {
+        "id": "carport02",
+        "phase": "Szerkezetépítés",
+        "caption": "Oszlopok és tetőgerendák felállítása",
+        "alt": "Épülő fa kocsibeálló oszlopokkal, gerendákkal és ideiglenes merevítésekkel.",
+        "src": "assets/projektek/fa-kocsibeallo-epitese-02-400.webp",
+        "width": 2048,
+        "height": 923,
+        "full": "assets/projektek/fa-kocsibeallo-epitese-02-1600.webp",
+        "srcset": "assets/projektek/fa-kocsibeallo-epitese-02-400.webp 400w, assets/projektek/fa-kocsibeallo-epitese-02-800.webp 800w, assets/projektek/fa-kocsibeallo-epitese-02-1600.webp 1600w"
+      },
+      {
+        "id": "carport03",
+        "phase": "Tető-előkészítés",
+        "caption": "Tetőfóliázás és lécezés",
+        "alt": "A kocsibeálló fóliázott és lécezett teteje felülről, a fedés előtt.",
+        "src": "assets/projektek/fa-kocsibeallo-epitese-03-400.webp",
+        "width": 2048,
+        "height": 923,
+        "full": "assets/projektek/fa-kocsibeallo-epitese-03-1600.webp",
+        "srcset": "assets/projektek/fa-kocsibeallo-epitese-03-400.webp 400w, assets/projektek/fa-kocsibeallo-epitese-03-800.webp 800w, assets/projektek/fa-kocsibeallo-epitese-03-1600.webp 1600w"
+      },
+      {
+        "id": "carport04",
+        "phase": "Faszerkezet",
+        "caption": "A tető alatti faszerkezet",
+        "alt": "A fa kocsibeálló tetőgerendái és deszkázata alulnézetből.",
+        "src": "assets/projektek/fa-kocsibeallo-epitese-04-400.webp",
+        "width": 2048,
+        "height": 923,
+        "full": "assets/projektek/fa-kocsibeallo-epitese-04-1600.webp",
+        "srcset": "assets/projektek/fa-kocsibeallo-epitese-04-400.webp 400w, assets/projektek/fa-kocsibeallo-epitese-04-800.webp 800w, assets/projektek/fa-kocsibeallo-epitese-04-1600.webp 1600w"
+      },
+      {
+        "id": "carport05",
+        "phase": "Faszerkezet",
+        "caption": "A fedett beálló belső tere",
+        "alt": "A kocsibeálló belső tere, oszlopokkal és ferde támaszokkal.",
+        "src": "assets/projektek/fa-kocsibeallo-epitese-05-400.webp",
+        "width": 2048,
+        "height": 923,
+        "full": "assets/projektek/fa-kocsibeallo-epitese-05-1600.webp",
+        "srcset": "assets/projektek/fa-kocsibeallo-epitese-05-400.webp 400w, assets/projektek/fa-kocsibeallo-epitese-05-800.webp 800w, assets/projektek/fa-kocsibeallo-epitese-05-1600.webp 1600w"
+      },
+      {
+        "id": "carport06",
+        "phase": "Részletek",
+        "caption": "Oszlop, könyökfa és deszkázat",
+        "alt": "Faoszlop és ferde könyökfa csatlakozása a deszkázott tetőhöz.",
+        "src": "assets/projektek/fa-kocsibeallo-epitese-06-400.webp",
+        "width": 923,
+        "height": 2048,
+        "full": "assets/projektek/fa-kocsibeallo-epitese-06-923.webp",
+        "srcset": "assets/projektek/fa-kocsibeallo-epitese-06-400.webp 400w, assets/projektek/fa-kocsibeallo-epitese-06-800.webp 800w, assets/projektek/fa-kocsibeallo-epitese-06-923.webp 923w"
+      }
+    ]
+  },
+  "greenRoof": {
+    "title": "Zöld trapézlemezes tető",
+    "kicker": "Projekt 09",
+    "url": "projekt-zold-trapezlemezes-teto.html",
+    "description": "Lemezfedés, gerinc- és falszegélyek, valamint a kémény körüli bádogozás egy tetőn.",
+    "galleryAddition": true,
+    "photos": [
+      {
+        "id": "greenRoof01",
+        "phase": "Lemezfedés",
+        "caption": "A zöld lemezfedés áttekintése",
+        "alt": "Zöld trapézlemezzel fedett tetősík és kémény.",
+        "src": "assets/projektek/zold-trapezlemezes-teto-01-400.webp",
+        "width": 2048,
+        "height": 2048,
+        "full": "assets/projektek/zold-trapezlemezes-teto-01-1600.webp",
+        "srcset": "assets/projektek/zold-trapezlemezes-teto-01-400.webp 400w, assets/projektek/zold-trapezlemezes-teto-01-800.webp 800w, assets/projektek/zold-trapezlemezes-teto-01-1600.webp 1600w"
+      },
+      {
+        "id": "greenRoof02",
+        "phase": "Tető-előkészítés",
+        "caption": "Lemezfedés készítése a lécezett tetőn",
+        "alt": "Részben lemezelt tető, látható tetőfóliával, lécezéssel és falszegéllyel.",
+        "src": "assets/projektek/zold-trapezlemezes-teto-02-400.webp",
+        "width": 2048,
+        "height": 2048,
+        "full": "assets/projektek/zold-trapezlemezes-teto-02-1600.webp",
+        "srcset": "assets/projektek/zold-trapezlemezes-teto-02-400.webp 400w, assets/projektek/zold-trapezlemezes-teto-02-800.webp 800w, assets/projektek/zold-trapezlemezes-teto-02-1600.webp 1600w"
+      },
+      {
+        "id": "greenRoof03",
+        "phase": "Részletek",
+        "caption": "Tetőszél és ereszcsatlakozás",
+        "alt": "Zöld trapézlemez tetőszéle és ereszcsatornája, előtérben a lécezéssel.",
+        "src": "assets/projektek/zold-trapezlemezes-teto-03-400.webp",
+        "width": 2048,
+        "height": 2048,
+        "full": "assets/projektek/zold-trapezlemezes-teto-03-1600.webp",
+        "srcset": "assets/projektek/zold-trapezlemezes-teto-03-400.webp 400w, assets/projektek/zold-trapezlemezes-teto-03-800.webp 800w, assets/projektek/zold-trapezlemezes-teto-03-1600.webp 1600w"
+      },
+      {
+        "id": "greenRoof04",
+        "phase": "Részletek",
+        "caption": "A lemezfedés az eresz mentén",
+        "alt": "A zöld lemeztető hosszanti nézete az ereszcsatorna mellett.",
+        "src": "assets/projektek/zold-trapezlemezes-teto-04-400.webp",
+        "width": 2048,
+        "height": 2048,
+        "full": "assets/projektek/zold-trapezlemezes-teto-04-1600.webp",
+        "srcset": "assets/projektek/zold-trapezlemezes-teto-04-400.webp 400w, assets/projektek/zold-trapezlemezes-teto-04-800.webp 800w, assets/projektek/zold-trapezlemezes-teto-04-1600.webp 1600w"
+      },
+      {
+        "id": "greenRoof05",
+        "phase": "Részletek",
+        "caption": "Gerincszegély a két tetősík között",
+        "alt": "Zöld lemeztető gerincszegélye és a hozzá csatlakozó tetősíkok.",
+        "src": "assets/projektek/zold-trapezlemezes-teto-05-400.webp",
+        "width": 2048,
+        "height": 2048,
+        "full": "assets/projektek/zold-trapezlemezes-teto-05-1600.webp",
+        "srcset": "assets/projektek/zold-trapezlemezes-teto-05-400.webp 400w, assets/projektek/zold-trapezlemezes-teto-05-800.webp 800w, assets/projektek/zold-trapezlemezes-teto-05-1600.webp 1600w"
+      },
+      {
+        "id": "greenRoof06",
+        "phase": "Részletek",
+        "caption": "Lemezek és szegélyek csatlakozása",
+        "alt": "Trapézlemezes tető illesztései és rögzített szegélylemezei közelről.",
+        "src": "assets/projektek/zold-trapezlemezes-teto-06-400.webp",
+        "width": 2048,
+        "height": 2048,
+        "full": "assets/projektek/zold-trapezlemezes-teto-06-1600.webp",
+        "srcset": "assets/projektek/zold-trapezlemezes-teto-06-400.webp 400w, assets/projektek/zold-trapezlemezes-teto-06-800.webp 800w, assets/projektek/zold-trapezlemezes-teto-06-1600.webp 1600w"
+      },
+      {
+        "id": "greenRoof07",
+        "phase": "Részletek",
+        "caption": "Kémény körüli bádogozás",
+        "alt": "Zöld bádogszegély a kémény tövénél, a fal és a lemezfedés találkozásánál.",
+        "src": "assets/projektek/zold-trapezlemezes-teto-07-400.webp",
+        "width": 2048,
+        "height": 1536,
+        "full": "assets/projektek/zold-trapezlemezes-teto-07-1600.webp",
+        "srcset": "assets/projektek/zold-trapezlemezes-teto-07-400.webp 400w, assets/projektek/zold-trapezlemezes-teto-07-800.webp 800w, assets/projektek/zold-trapezlemezes-teto-07-1600.webp 1600w"
+      }
+    ]
+  },
+  "redRoof": {
+    "title": "Piros tetőfedés és kéményburkolat",
+    "kicker": "Projekt 10",
+    "url": "projekt-piros-tetofedes-kemenyszegely.html",
+    "description": "A tetősíkok, a gerinc és a piros kéményburkolat részletei.",
+    "galleryAddition": true,
+    "photos": [
+      {
+        "id": "redRoof01",
+        "phase": "Tetőfedés",
+        "caption": "A piros tetőfedés áttekintése",
+        "alt": "Piros tetőfedés több csatlakozó tetősíkon, burkolt kéménnyel.",
+        "src": "assets/projektek/piros-tetofedes-kemenyszegely-01-400.webp",
+        "width": 960,
+        "height": 720,
+        "full": "assets/projektek/piros-tetofedes-kemenyszegely-01-960.webp",
+        "srcset": "assets/projektek/piros-tetofedes-kemenyszegely-01-400.webp 400w, assets/projektek/piros-tetofedes-kemenyszegely-01-800.webp 800w, assets/projektek/piros-tetofedes-kemenyszegely-01-960.webp 960w"
+      },
+      {
+        "id": "redRoof02",
+        "phase": "Kéményburkolat",
+        "caption": "Kéményburkolat a tetőn",
+        "alt": "Piros burkolatú kémény és a környező piros tetőfedés.",
+        "src": "assets/projektek/piros-tetofedes-kemenyszegely-02-400.webp",
+        "width": 720,
+        "height": 960,
+        "full": "assets/projektek/piros-tetofedes-kemenyszegely-02-720.webp",
+        "srcset": "assets/projektek/piros-tetofedes-kemenyszegely-02-400.webp 400w, assets/projektek/piros-tetofedes-kemenyszegely-02-720.webp 720w"
+      },
+      {
+        "id": "redRoof03",
+        "phase": "Tetőfedés",
+        "caption": "Tetőgerinc és fedési részletek",
+        "alt": "Piros tetőfedés, gerincelemek és szellőző gerincszalag közelről.",
+        "src": "assets/projektek/piros-tetofedes-kemenyszegely-03-400.webp",
+        "width": 720,
+        "height": 960,
+        "full": "assets/projektek/piros-tetofedes-kemenyszegely-03-720.webp",
+        "srcset": "assets/projektek/piros-tetofedes-kemenyszegely-03-400.webp 400w, assets/projektek/piros-tetofedes-kemenyszegely-03-720.webp 720w"
+      },
+      {
+        "id": "redRoof04",
+        "phase": "Kéményburkolat",
+        "caption": "A kémény és a tető csatlakozása",
+        "alt": "A piros kéményburkolat és a tetőfedés találkozása közelről.",
+        "src": "assets/projektek/piros-tetofedes-kemenyszegely-04-400.webp",
+        "width": 720,
+        "height": 960,
+        "full": "assets/projektek/piros-tetofedes-kemenyszegely-04-720.webp",
+        "srcset": "assets/projektek/piros-tetofedes-kemenyszegely-04-400.webp 400w, assets/projektek/piros-tetofedes-kemenyszegely-04-720.webp 720w"
+      }
+    ]
+  },
+  "gardenFrame": {
+    "title": "Kerti faszerkezet felállítása",
+    "kicker": "Projekt 11",
+    "url": "projekt-kerti-faszerkezet-allitasa.html",
+    "description": "Faoszlopok és tartógerendák felállítása, ideiglenes merevítésekkel.",
+    "galleryAddition": true,
+    "photos": [
+      {
+        "id": "gardenFrame01",
+        "phase": "Szerkezetépítés",
+        "caption": "A faszerkezet felállítása",
+        "alt": "Faoszlopok és tartógerendák építés közben, betonlemezen, ideiglenes merevítésekkel.",
+        "src": "assets/projektek/kerti-faszerkezet-allitasa-01-400.webp",
+        "width": 960,
+        "height": 540,
+        "full": "assets/projektek/kerti-faszerkezet-allitasa-01-960.webp",
+        "srcset": "assets/projektek/kerti-faszerkezet-allitasa-01-400.webp 400w, assets/projektek/kerti-faszerkezet-allitasa-01-800.webp 800w, assets/projektek/kerti-faszerkezet-allitasa-01-960.webp 960w"
+      }
+    ]
+  },
+  "atticFrame": {
+    "title": "Tetőszerkezet készítése a padlástérben",
+    "kicker": "Projekt 12",
+    "url": "projekt-tetoszerkezet-padlasterben.html",
+    "description": "Új szarufák, gerendák és alátámasztások a padlástérben.",
+    "galleryAddition": true,
+    "photos": [
+      {
+        "id": "atticFrame01",
+        "phase": "Szerkezetépítés",
+        "caption": "Új tetőszerkezet a padlástérben",
+        "alt": "Új fa szarufák, vízszintes gerendák és függőleges alátámasztások a padlástérben.",
+        "src": "assets/projektek/tetoszerkezet-padlasterben-01-400.webp",
+        "width": 960,
+        "height": 540,
+        "full": "assets/projektek/tetoszerkezet-padlasterben-01-960.webp",
+        "srcset": "assets/projektek/tetoszerkezet-padlasterben-01-400.webp 400w, assets/projektek/tetoszerkezet-padlasterben-01-800.webp 800w, assets/projektek/tetoszerkezet-padlasterben-01-960.webp 960w"
+      }
+    ]
+  },
   "chapel": {
     "title": "Kápolna tető- és toronyfelújítása Budaörsön",
     "kicker": "Kiemelt referencia · Projekt 02",
